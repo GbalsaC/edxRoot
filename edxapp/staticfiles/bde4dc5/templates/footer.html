@@ -1,0 +1,47 @@
+## mako
+<%!
+  from django.core.urlresolvers import reverse
+  from django.utils.translation import ugettext as _
+  from branding.api import get_footer
+%>
+<% footer = get_footer(is_secure=is_secure) %>
+<%namespace name='static' file='static_content.html'/>
+
+<footer class="global navbar navbar-default">
+  
+    <div class="col-md-12 text-center hidden-xs">
+      <span>&copy;Copyright 2015 populo. All rights reserved.</span>
+      <span>Made With</span>
+      <img class="padding-5" src="https://dl.dropboxusercontent.com/s/zlqwtmcmddpytfq/love-icon.png">
+        <span>in Chicago</span>
+        <ul class="list-inline">
+          <li><a href="#">Contact</a></li>
+            <li><a href="#">Terms & Cconditions</a></li>
+            <li><a href="#">Privacy</a></li>
+        </ul>
+    </div>
+    
+    <div class="visible-xs">
+        <div class="col-xs-12 collapse-header text-center">
+                <a href="#legal-links" data-toggle="collapse" aria-expanded="false" aria-controls="legal-links">
+                    <img src="https://dl.dropboxusercontent.com/s/ftb8vqz84pnm3bz/expand-icon.png">
+                </a>
+        </div>        
+                
+                <div class="collapse" id="legal-links">
+                    <div class="col-xs-12 text-center">
+                        <ul class="list-group">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Terms & Cconditions</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+        <div class="col-xs-12 text-center">        
+            <span>Made With</span>
+            <img class="padding-5" src="https://dl.dropboxusercontent.com/s/zlqwtmcmddpytfq/love-icon.png">
+            <span>in Chicago</span>
+        </div>
+    </div>
+</footer>

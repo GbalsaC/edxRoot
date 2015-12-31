@@ -1,0 +1,235 @@
+<%page args="course, enrollment, show_courseware_link, cert_status, credit_status, show_email_settings, course_mode_info, show_refund_option, is_paid_course, is_course_blocked, verification_status, course_requirements, dashboard_index, share_settings" />
+
+<%!
+import string
+import random
+import urllib
+
+from django.utils.translation import ugettext as _
+from django.utils.translation import ungettext
+from django.core.urlresolvers import reverse
+from markupsafe import escape
+from courseware.courses import course_image_url, get_course_about_section
+from course_modes.models import CourseMode
+from student.helpers import (
+  VERIFY_STATUS_NEED_TO_VERIFY,
+  VERIFY_STATUS_SUBMITTED,
+  VERIFY_STATUS_APPROVED,
+  VERIFY_STATUS_MISSED_DEADLINE,
+  VERIFY_STATUS_NEED_TO_REVERIFY
+)
+def find_rev(str,target,start):
+    str = str[::-1]
+    index = str.find(target,len(str) - start)
+    if index != -1:
+        index = len(str) - index
+    return index
+
+def title_limit(title, limit):
+    if len(title) <= limit: return title
+    cut = find_rev(title, ' ', limit - 3 + 1)
+    if cut != -1:
+        title = title[:cut-1] + " ..."
+    else:
+        title = title[:limit-3] + " ..."
+    return title
+
+
+def avat_text2():
+    inteNum = random.randint(0, 4)
+    if(inteNum == 0):
+      color= '#f05049'
+    elif(inteNum == 1):
+      color='#FED324'
+    elif(inteNum == 2):
+      color='#68CA68'
+    elif(inteNum == 3):
+      color='#3498DB'
+    elif(inteNum == 4):
+      color='#8A70BF'
+    else:
+      color='#8A70BF'
+
+    color='#cfcfd1'
+    return color
+
+
+def no_slash(courseId):
+    sl1 = courseId.find('/', 0)
+    sl2 = courseId.find('/', sl1+1)
+    textOut = courseId[sl1+1:sl2]
+    if (textOut.find(':')>-1):
+        sl3=textOut.find(':',0)
+        textOut=textOut[sl3+1:]
+    textOut = textOut.replace("@", "_")
+    textOut = textOut.replace("+", "_")
+    textOut = textOut.replace("*", "_")
+    textOut = textOut.replace("$", "_")
+    textOut = textOut.replace("%", "_")
+    textOut = textOut.replace("(", "_")
+    textOut = textOut.replace(")", "_")
+
+    return textOut
+
+
+def avat_text(title):
+    lengthTot = len(title)
+    first = title[0]
+    second = ''
+    for i in range(1, lengthTot):
+        if(title[i] == 'a' and second==''):
+            second='a'
+            color= '#f05049'
+        elif(title[i] == 'e' and second==''):
+            second='e'
+            color='#FED324'
+        elif(title[i] == 'i' and second==''):
+            second='i'
+            color='#68CA68'
+        elif(title[i] == 'o' and second==''):
+            second='o'
+            color='#3498DB'
+        elif(title[i] == 'u' and second==''):
+            second='u'
+            color='#8A70BF'
+    if (second == ''):
+        second = title[1]
+        
+    outting = (first+second).upper()
+    
+    return outting
+
+def convert_line_endings(temp, mode):
+        #modes:  0 - Unix, 1 - Mac, 2 - DOS
+        if mode == 0:
+                temp = string.replace(temp, '\r\n', '\n')
+                temp = string.replace(temp, '\r', '\n')
+        elif mode == 1:
+                temp = string.replace(temp, '\r\n', '\r')
+                temp = string.replace(temp, '\n', '\r')
+        elif mode == 2:
+                import re
+                temp = re.sub("\r(?!\n)|(?<!\r)\n", "\r\n", temp)
+        return temp
+
+%>
+
+<%
+  cert_name_short = course.cert_name_short
+  if cert_name_short == "":
+    cert_name_short = settings.CERT_NAME_SHORT
+
+  cert_name_long = course.cert_name_long
+  if cert_name_long == "":
+    cert_name_long = settings.CERT_NAME_LONG
+  billing_email = settings.PAYMENT_SUPPORT_EMAIL
+
+
+
+%>
+<!--
+* as data-label
++ as data-label elements
+    - overview !- -
+    - title *
+    - university *
+    - number *
+    - short_description +*
+    - description +*
+    - key_dates (includes start, end, exams, etc)
+    - video
+    - course_staff_short *
+    - course_staff_extended
+    - requirements *
+    - syllabus +
+    - textbook *
+    - faq
+    - more_info
+    - ocw_links
+-->
+
+
+
+<%namespace name='static' file='../static_content.html'/>
+
+<li class="col-xs-12 col-sm-6 col-md-4" id="${(no_slash(unicode(course.id))).lower()}" 
+data-org="${(get_course_about_section(course, 'university')).lower()}" 
+data-number="${(get_course_about_section(course, 'number')).lower()}"  
+data-title="${get_course_about_section(course, 'title').lower()}" 
+data-staff="${get_course_about_section(course, 'course_staff_short').lower()}" 
+data-requirements="${get_course_about_section(course, 'requirements').lower()}" 
+data-shortdescription="${get_course_about_section(course, 'short_description').lower()}" 
+data-description="${get_course_about_section(course, 'description').lower()}" 
+>
+  <article class="tile">  
+   <% course_target = reverse('courseware', args=[unicode(course.id)]) %>
+      <section class="tile-header">
+            <div class="course-title">${title_limit(course.display_name_with_default, 30)}</div>
+            <div class="text-right">
+              <a href="${course_target}">
+                <img src="https://dl.dropboxusercontent.com/s/ab9b20kag1n65sr/go-arrow.png">
+              </a>
+            </div>
+      </section>
+      <div class="course-description">
+        ${title_limit(get_course_about_section(course, "short_description"), 93)}
+      </div>
+        <div class="wrapper-course-subtitle sub2">
+          <p class="short-description">
+            ${get_course_about_section(course, "short_description")}
+          </p>
+          <div class="bottomIcon" style="width:160px; margin: 0 auto;">
+              <div class="col-xs-6 enterCourse" style="position: relative;">       
+                  <a href="${course_target}" class="enter-course">
+                      <img src="/static/themes/edx-theme/images/Enter.png">
+                  </a>             
+              </div>          
+            <div class="col-xs-6 rocketCourse" style="">
+
+              <!-- -->
+              <a href="#unenroll-modal" class="action action-unenroll" rel="leanModal" data-course-id="${course.id | h}" data-course-number="${course.number | h}" data-dashboard-index="${dashboard_index}" 
+                       onclick="set_unenroll_message('${_("Are you sure you want to remove %(course_number)s?")}', '', '${course.id | h}', '${course.display_name_with_default | h}')"> 
+                <img src="/static/themes/edx-theme/images/stop.png" alt="5">
+              </a>
+              <!-- 
+              <a href="#unenroll-modal" class="action action-unenroll" rel="leanModal" data-course-id="${course.id | h}" data-course-number="${course.number | h}" data-dashboard-index="${dashboard_index}" 
+                       onclick="set_unenroll_message('Are you sure you want to unenroll from ${course.number | h}?','')"> 
+                      <img src="/static/themes/edx-theme/images/stop.png">
+              </a> 
+              -->
+            </div>
+          </div>
+        </div>
+
+
+      <div class="course-image">
+        <img class="img-responsive course-image-main" src="${course_image_url(course)}" alt="${course.display_name_with_default}">
+      </div>
+      <footer class="tile-footer">
+          <div class="tile-avatar">
+            <div class="initial-avatar" style="background-color: ${avat_text2()}">${avat_text(get_course_about_section(course, 'university'))}</div> 
+            ${get_course_about_section(course, 'university')}
+          </div>
+          <div class="text-right"><img src="/static/themes/edx-theme/images/views-icon.png">0</div>
+      </footer>
+  </article>
+</li>
+
+
+<script>
+           $( document ).ready(function() {
+
+               if("${is_course_blocked}" == "True"){
+                   $( "#unregister_block_course" ).click(function() {
+                       $('.disable-look-unregister').click();
+                   });
+               }
+           });
+
+           function set_unenroll_message(track_info, refund_info, course_id, course_number) {
+            console.log('Modal ID is: ', course_id);
+              document.getElementById('unenroll_course_id2').value = course_id;
+              document.getElementById('track-info').innerHTML = interpolate(track_info, {course_number: "<span id='unenroll_course_number'>"+course_number+"</span>"}, true);
+              document.getElementById('refund-info').innerHTML = refund_info;
+           };
+</script>

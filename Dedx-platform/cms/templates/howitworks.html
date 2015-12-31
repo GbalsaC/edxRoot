@@ -1,0 +1,69 @@
+<%inherit file="base.html" />
+<%def name="online_help_token()"><% return "welcome" %></%def>
+<%namespace name='static' file='static_content.html'/>
+<%!
+  from django.core.urlresolvers import reverse
+  from django.utils.translation import ugettext as _
+%>
+
+<%block name="title">${_("Welcome")}</%block>
+<%block name="bodyclass">not-signedin index view-howitworks</%block>
+
+<%block name="content">
+
+<div class="wrapper-content-header wrapper">
+  <section class="content content-header">
+    <header>
+      <h1><span class="wrapper-text-welcome">${_("Welcome to {studio_name}").format(
+        studio_name=u'</span><span class="logo">{studio_name}</span>'.format(
+          studio_name=settings.STUDIO_NAME
+        )
+      )}</h1>
+      <p class="tagline">${_("{studio_name} helps manage your online courses, so you can focus on teaching them").format(
+        studio_name=settings.STUDIO_SHORT_NAME
+      )}</p>
+    </header>
+  </section>
+</div>
+
+
+
+<div class="content-modal" id="hiw-feature1">
+  <h3 class="title">${_("Outlining Your Course")}</h3>
+  <figure>
+    <img src="${static.url("images/hiw-feature1.png")}" alt="" />
+    <figcaption class="description">${_("Simple two-level outline to organize your couse. Drag and drop, and see your course at a glance.")}</figcaption>
+  </figure>
+
+  <a href="" rel="view" class="action action-modal-close">
+    <i class="icon fa fa-times-circle"></i>
+    <span class="label">${_("close modal")}</span>
+  </a>
+</div>
+
+<div class="content-modal" id="hiw-feature2">
+  <h3 class="title">${_("More than Just Lectures")}</h3>
+  <figure>
+    <img src="${static.url("images/hiw-feature2.png")}" alt="" />
+    <figcaption class="description">${_("Quickly create videos, text snippets, inline discussions, and a variety of problem types.")}</figcaption>
+  </figure>
+
+  <a href="" rel="view" class="action action-modal-close">
+    <i class="icon fa fa-times-circle"></i>
+    <span class="label">${_("close modal")}</span>
+  </a>
+</div>
+
+<div class="content-modal" id="hiw-feature3">
+  <h3 class="title">${_("Publishing on Date")}</h3>
+  <figure>
+    <img src="${static.url("images/hiw-feature3.png")}" alt="" />
+    <figcaption class="description">${_("Simply set the date of a section or subsection, and {studio_name} will publish it to your students for you.").format(studio_name=settings.STUDIO_SHORT_NAME)}</figcaption>
+  </figure>
+
+  <a href="" rel="view" class="action action-modal-close">
+    <i class="icon fa fa-times-circle"></i>
+    <span class="label">${_("close modal")}</span>
+  </a>
+</div>
+</%block>

@@ -1,0 +1,66 @@
+<%namespace name='static' file='static_content.html'/>
+<%!
+from django.utils.translation import ugettext as _
+from django.core.urlresolvers import reverse
+from courseware.courses import course_image_url, get_course_about_section
+
+def find_rev(str,target,start):
+    str = str[::-1]
+    index = str.find(target,len(str) - start)
+    if index != -1:
+        index = len(str) - index
+    return index
+
+def title_limit(title, limit):
+    if len(title) <= limit: return title
+    cut = find_rev(title, ' ', limit - 3 + 1)
+    if cut != -1:
+        title = title[:cut-1] + " ..."
+    else:
+        title = title[:limit-3] + " ..."
+    return title
+
+# Use as title_limit(stringVar, limit)
+
+%>
+<%page args="course" />
+<%namespace name='static' file='../static_content.html'/>
+
+<article class="course" id="${course.id | h}" role="region" aria-label="${get_course_about_section(course, 'title')}">
+
+  <section class="details">
+  <div class="wrapper-course-details">
+
+  <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}">
+    
+    <section class="course-info" aria-hidden=true>
+      <h2 class="course-name">
+        <span class="info-university">${get_course_about_section(course, 'university')}</span>
+        <span class="info-course-id">${course.display_number_with_default}</span>
+        <span class="course-title">${get_course_about_section(course, 'title')}</span>
+      </h2>
+      
+    </section>
+    <div class="sr">
+      <ul>
+      <li>${get_course_about_section(course, 'university')}</li>
+      <li>${course.display_number_with_default}</li>
+      <li>${_("Starts")}: <time itemprop="startDate" datetime="${course.start_datetime_text()}">${course.start_datetime_text()}</time></li>
+    </ul>
+    </div>
+  </a>
+
+  </div>
+  <div class="wrapper-course-image">
+   
+      <a class="cover">
+        <img src="${course_image_url(course)}" alt="${get_course_about_section(course, 'title')} ${course.display_number_with_default}" />
+        <div class="learn-more" aria-hidden=true>${_("LEARN MORE")}</div>
+      </a>
+  </div>
+  <div class="wrapper-course-details">
+    <div class="course-date" aria-hidden="true">${_("Starts")}: ${course.start_datetime_text()}</div>
+  </div>
+  </section>
+
+</article>

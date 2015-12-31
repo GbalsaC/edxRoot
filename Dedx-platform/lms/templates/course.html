@@ -1,0 +1,112 @@
+<%namespace name='static' file='static_content.html'/>
+<%!
+import string
+import random
+
+from django.utils.translation import ugettext as _
+from django.core.urlresolvers import reverse
+from courseware.courses import course_image_url, get_course_about_section
+
+def find_rev(str,target,start):
+    str = str[::-1]
+    index = str.find(target,len(str) - start)
+    if index != -1:
+        index = len(str) - index
+    return index
+
+def title_limit(title, limit):
+    if len(title) <= limit: return title
+    cut = find_rev(title, ' ', limit - 3 + 1)
+    if cut != -1:
+        title = title[:cut-1] + " ..."
+    else:
+        title = title[:limit-3] + " ..."
+    return title
+
+# Use as title_limit(stringVar, limit)
+
+def avat_text(title):
+    lengthTot = len(title)
+    first = title[0]
+    second = ''
+    for i in range(1, lengthTot):
+        if(title[i] == 'a' and second==''):
+            second='a'
+        elif(title[i] == 'e' and second==''):
+            second='e'
+        elif(title[i] == 'i' and second==''):
+            second='i'
+        elif(title[i] == 'o' and second==''):
+            second='o'
+        elif(title[i] == 'u' and second==''):
+            second='u'
+    if (second == ''):
+        second = title[1]
+    
+    return (first+second).upper()
+def avat_text2():
+    inteNum = random.randint(0, 4)
+    if(inteNum == 0):
+      color= '#f05049'
+    elif(inteNum == 1):
+      color='#FED324'
+    elif(inteNum == 2):
+      color='#68CA68'
+    elif(inteNum == 3):
+      color='#3498DB'
+    elif(inteNum == 4):
+      color='#8A70BF'
+    else:
+      color='#8A70BF'
+    return color
+
+%>
+<%page args="course" />
+
+
+<li class="col-xs-12 col-sm-6 col-md-4" id="${course.id | h}" role="region" aria-label="${get_course_about_section(course, 'title')}">
+  <article class="tile">  
+      <section class="tile-header">
+            <div class="course-title">${title_limit(course.display_name_with_default, 30)}</div>
+            <div class="text-right">
+              <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}">
+                <img src="https://dl.dropboxusercontent.com/s/ab9b20kag1n65sr/go-arrow.png">
+              </a>
+            </div>
+      </section>
+      <div class="course-description">
+        ${title_limit(get_course_about_section(course, "short_description"), 55)}
+      </div>
+        <div class="wrapper-course-subtitle sub2">
+          <p class="short-description">
+            ${get_course_about_section(course, "short_description")}
+          </p>
+          <div class="bottomIcon" style="width:160px; margin: 0 auto;">
+              <div class="col-xs-6 enterCourse" style="position: relative;">       
+                  <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}" class="enter-course">
+                      <img src="/static/themes/edx-theme/images/Enter.png">
+                  </a>             
+              </div>          
+            <div class="col-xs-6 rocketCourse" style="">
+              <a href="#actions-dropdown" class="action action-more" aria-haspopup="true" aria-expanded="false" data-course-number="${course.number | h}" style="margin-top: 0px; width: 100%; height: 94%;"> 
+                    <img src="/static/themes/edx-theme/images/Rocket.png">
+              </a> 
+            </div>
+          </div>
+        </div>
+
+
+      <div class="course-image">
+        <img class="img-responsive course-image-main" src="${course_image_url(course)}" alt="${course.display_name_with_default}">
+      </div>
+      <footer class="tile-footer">
+          <div class="tile-avatar">
+            <div class="initial-avatar" style="background-color: ${avat_text2()}">
+            ${avat_text(get_course_about_section(course, 'university'))}
+            </div> 
+            ${get_course_about_section(course, 'university')}
+          </div>
+          <div class="text-right"><img src="/static/themes/edx-theme/images/views-icon.png">0</div>
+      </footer>
+  </article>
+</li>

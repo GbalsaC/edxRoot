@@ -1,0 +1,109 @@
+<%inherit file="base.html" />
+<%def name="online_help_token()"><% return "register" %></%def>
+<%!
+from django.utils.translation import ugettext as _
+from django.core.urlresolvers import reverse
+%>
+
+<%block name="title">${_("Sign Up")}</%block>
+<%block name="bodyclass">not-signedin view-signup logoBackground</%block>
+
+<%block name="content">
+
+<div class="wrapper-content wrapper col-xs-12">
+  <section class="content">
+
+
+    <article class="content-primary col-xs-4 col-xs-offset-4" role="main" style="width: 33.333333%; margin-top:-75px; margin-bottom:17px;">
+    <img src="/static/themes/edx-theme/images/growthLogowhite.png" style="width: 80%; margin: 0 10%;">
+      <form id="register_form" method="post">
+        <div id="register_error" name="register_error" class="message message-status message-status error">
+        </div>
+
+        <fieldset>
+          <legend class="sr">${_("Required Information to Sign Up for {studio_name}").format(studio_name=settings.STUDIO_NAME)}</legend>
+
+          <ol class="list-input" id="registerFormat">
+            <li class="field text required" id="field-email">
+              <i class="fa  fa-envelope-o" style="float: left; width: 30px; color: rgba(255, 255, 255, 0.72); height: 40px; line-height: 40px; font-size:25px;"></i>
+              <input class="form-control transparent-input" id="email" type="email" name="email" placeholder="${_("Email: username@domain.com")}" />
+            </li>
+
+            <li class="field text required" id="field-name">
+              <i class="fa fa-user" style="float: left; width: 30px; color: rgba(255, 255, 255, 0.72); height: 40px; line-height: 40px; font-size:25px;"></i><input class="form-control transparent-input" id="name" type="text" name="name" placeholder="${_("Full Name: Jane Doe")}" />
+            </li>
+
+            <li class="field text required" id="field-username">
+            <i class="fa fa-tag" style="float: left; width: 30px; color: rgba(255, 255, 255, 0.72); height: 40px; line-height: 40px; font-size:25px;"></i>
+              <input class="form-control transparent-input" id="username" type="text" name="username" placeholder="${_("username: JaneDoe")}" />
+      
+            </li>
+
+            <li class="field text required" id="field-password">
+            <i class="fa fa-key" style="float: left; width: 30px; color: rgba(255, 255, 255, 0.72); height: 40px; line-height: 40px; font-size:25px;"></i>
+              <input class="form-control transparent-input" id="password" type="password" name="password" placeholder="password"/>
+            </li>
+
+            <li class="field-group">
+              <div class="field text" id="field-location">
+              <i class="fa fa-map-marker" style="float: left; width: 30px; color: rgba(255, 255, 255, 0.72); height: 40px; line-height: 40px; font-size:25px;"></i>
+                <input class="form-control transparent-input" class="short" id="location" type="text" name="location" placeholder="location"/>
+              </div>
+
+              <div class="field text" id="field-language">
+              <i class="fa fa-language" style="float: left; width: 30px; color: rgba(255, 255, 255, 0.72); height: 40px; line-height: 40px; font-size:25px;"></i>
+                <input class="form-control transparent-input" class="short" id="language" type="text" name="language" placeholder="language"/>
+              </div>
+            </li>
+
+            <li class="field checkbox required" id="field-tos" style="margin-left: 14px;">
+            
+              <input class="form-control transparent-input" id="tos" name="terms_of_service" type="checkbox" value="true" style="width: 30px !important; height: 20px; margin-top: 4px; margin-left: -10px; "/>
+              <label for="tos" style="text-shadow: 1px 1px black; color: #E8E8E8;">
+                ${_("I agree to the {a_start} Terms of Service {a_end}").format(a_start='<a data-rel="edx.org" href="{}" style="color: white;">'.format(marketing_link('TOS')), a_end="</a>")}
+              </label>
+            </li>
+          </ol>
+        </fieldset>
+
+        <div class="form-actions">
+          <button type="submit" id="submit" name="submit" class="action action-primary">${_("Create My Account &amp; Start Authoring Courses")}</button>
+        </div>
+
+        <!-- no honor code for CMS, but need it because we're using the lms student object -->
+        <input name="honor_code" type="checkbox" value="true" checked="true" hidden="true">
+      </form>
+    </article>
+
+    <aside class="content-supplementary" role="complementary" style="display:none;">
+      <h2 class="sr">${_("Common {studio_name} Questions").format(studio_name=settings.STUDIO_SHORT_NAME)}</h2>
+
+      <div class="bit">
+        <h3 class="title-3">${_("Who is {studio_name} for?").format(studio_name=settings.STUDIO_SHORT_NAME)}</h3>
+        <p>${_("{studio_name} is for anyone that wants to create online courses that leverage the global {platform_name} platform. Our users are often faculty members, teaching assistants and course staff, and members of instructional technology groups.").format(
+          studio_name=settings.STUDIO_SHORT_NAME, platform_name=settings.PLATFORM_NAME,
+        )}</p>
+      </div>
+
+      <div class="bit">
+        <h3 class="title-3">${_("How technically savvy do I need to be to create courses in {studio_name}?").format(studio_name=settings.STUDIO_SHORT_NAME)}</h3>
+        <p>${_("{studio_name} is designed to be easy to use by almost anyone familiar with common web-based authoring environments (Wordpress, Moodle, etc.). No programming knowledge is required, but for some of the more advanced features, a technical background would be helpful. As always, we are here to help, so don't hesitate to dive right in.").format(
+          studio_name=settings.STUDIO_SHORT_NAME,
+        )}</p>
+      </div>
+
+      <div class="bit">
+        <h3 class="title-3">${_("I've never authored a course online before. Is there help?")}</h3>
+        <p>${_("Absolutely. We have created an online course, edX101, that describes some best practices: from filming video, creating exercises, to the basics of running an online course. Additionally, we're always here to help, just drop us a note.")}</p>
+      </div>
+    </aside>
+
+  </section>
+</div>
+</%block>
+
+<%block name="requirejs">
+    require(["js/factories/register"], function (RegisterFactory) {
+        RegisterFactory();
+    });
+</%block>

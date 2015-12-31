@@ -1,0 +1,1012 @@
+<style>
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #333333;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  outline: 0;
+  background-image: none;
+}
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+  cursor: not-allowed;
+  opacity: .65;
+}
+a.btn.disabled,
+fieldset[disabled] a.btn {
+  pointer-events: none;
+}
+nav.nav-course .label {
+  color: #353434;
+}
+header.global,
+header.global-new,
+header.global.slim {
+  width: 100% !important;
+  top: 0px;
+  position: fixed;
+  z-index: 1000;
+  padding: 0;
+  border-width: 0px 0px 1px 0px;
+  background-color: #ffffff;
+  margin-bottom: 0;
+  transition: all 0.2s ease-in;
+  box-shadow: none;
+  border-radius: 0 !important;
+}
+header.global > nav,
+header.global-new > nav,
+header.global.slim > nav {
+  min-width: 0;
+  max-width: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header.global > nav h1.menu,
+header.global-new > nav h1.menu,
+header.global.slim > nav h1.menu {
+  width: 30px;
+  float: left;
+  margin: 10px 30px 0 0;
+  font-size: 20px;
+}
+header.global > nav h1.menu a,
+header.global-new > nav h1.menu a,
+header.global.slim > nav h1.menu a {
+  color: #058ed0;
+}
+header.global > nav h1.logo,
+header.global-new > nav h1.logo,
+header.global.slim > nav h1.logo {
+  margin: 0 30px 0 0;
+  padding: 0;
+  float: left;
+}
+header.global > nav h1.logo:before,
+header.global-new > nav h1.logo:before,
+header.global.slim > nav h1.logo:before {
+  display: none;
+}
+header.global > nav h1.logo a,
+header.global-new > nav h1.logo a,
+header.global.slim > nav h1.logo a {
+  width: 180px;
+  height: 36px;
+  background-image: url('../images/logo-open-edx.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+  header.global > nav h1.logo a,
+  header.global-new > nav h1.logo a,
+  header.global.slim > nav h1.logo a {
+    width: 80px;
+    height: 36px;
+    background-image: url('../images/logo-open-edx.png');
+  }
+}
+header.global > nav h2,
+header.global-new > nav h2,
+header.global.slim > nav h2 {
+  font: inherit;
+  font-size: 0.9em;
+  margin: 0.9em 0 0 0;
+  padding: 0;
+  text-shadow: none;
+  color: #6D6868;
+}
+@media (max-width: 991px) {
+  header.global > nav h2,
+  header.global-new > nav h2,
+  header.global.slim > nav h2 {
+    display: none;
+  }
+}
+header.global > nav h2.course-header,
+header.global-new > nav h2.course-header,
+header.global.slim > nav h2.course-header {
+  font-weight: 100;
+  margin: 4px 0 0 0;
+  font-size: 1.5em;
+}
+header.global > nav .no-margin,
+header.global-new > nav .no-margin,
+header.global.slim > nav .no-margin {
+  margin: 0 !important;
+}
+header.global > nav .nav-global,
+header.global-new > nav .nav-global,
+header.global.slim > nav .nav-global {
+  margin: 0.65em 0 0 0;
+}
+@media (max-width: 480px) {
+  header.global > nav .nav-global,
+  header.global-new > nav .nav-global,
+  header.global.slim > nav .nav-global {
+    display: none;
+  }
+}
+header.global > nav .nav-global a,
+header.global-new > nav .nav-global a,
+header.global.slim > nav .nav-global a {
+  font: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: inherit;
+  padding: 0;
+  color: #141414;
+  text-transform: none;
+  border: 0 none;
+}
+header.global > nav .nav-global a:hover,
+header.global-new > nav .nav-global a:hover,
+header.global.slim > nav .nav-global a:hover {
+  color: #212121;
+}
+header.global > nav .nav-global a:focus,
+header.global-new > nav .nav-global a:focus,
+header.global.slim > nav .nav-global a:focus {
+  color: #212121;
+  text-decoration: underline;
+}
+header.global > nav .nav-global a.cta-register,
+header.global-new > nav .nav-global a.cta-register,
+header.global.slim > nav .nav-global a.cta-register {
+  display: none;
+}
+header.global > nav .nav-courseware,
+header.global-new > nav .nav-courseware,
+header.global.slim > nav .nav-courseware {
+  margin: 0;
+}
+header.global > nav .nav-courseware div,
+header.global-new > nav .nav-courseware div,
+header.global.slim > nav .nav-courseware div {
+  margin: 0 5px 0 0;
+}
+header.global > nav .nav-courseware div:last-child,
+header.global-new > nav .nav-courseware div:last-child,
+header.global.slim > nav .nav-courseware div:last-child {
+  margin: 0;
+}
+header.global > nav .nav-courseware a.cta-register,
+header.global-new > nav .nav-courseware a.cta-register,
+header.global.slim > nav .nav-courseware a.cta-register {
+  display: none;
+}
+header.global > nav div.image-wrapper,
+header.global-new > nav div.image-wrapper,
+header.global.slim > nav div.image-wrapper {
+  float: right;
+  display: inline-block;
+}
+header.global > nav div.image-wrapper img#imageMain,
+header.global-new > nav div.image-wrapper img#imageMain,
+header.global.slim > nav div.image-wrapper img#imageMain {
+  height: 39px;
+  border-radius: 25px;
+}
+header.global > nav ol.user,
+header.global-new > nav ol.user,
+header.global.slim > nav ol.user {
+  margin: 4px 0 0 0;
+}
+header.global > nav ol.user > li.primary > a,
+header.global-new > nav ol.user > li.primary > a,
+header.global.slim > nav ol.user > li.primary > a {
+  width: auto;
+  height: auto;
+  font: inherit;
+  background: none;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  color: #058ed0;
+  background-color: #ffffff;
+  border-color: #058ed0;
+  text-shadow: none;
+  text-overflow: ellipsis;
+  transition: all 0.1s ease-in;
+  box-shadow: none;
+  margin: 0;
+  padding: 0.5em 1.2em;
+  outline: none;
+  overflow: hidden;
+  border: none !important;
+  border-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-radius: 4px 0 0 4px;
+}
+header.global > nav ol.user > li.primary > a:focus,
+header.global-new > nav ol.user > li.primary > a:focus,
+header.global.slim > nav ol.user > li.primary > a:focus,
+header.global > nav ol.user > li.primary > a:active:focus,
+header.global-new > nav ol.user > li.primary > a:active:focus,
+header.global.slim > nav ol.user > li.primary > a:active:focus,
+header.global > nav ol.user > li.primary > a.active:focus,
+header.global-new > nav ol.user > li.primary > a.active:focus,
+header.global.slim > nav ol.user > li.primary > a.active:focus,
+header.global > nav ol.user > li.primary > a.focus,
+header.global-new > nav ol.user > li.primary > a.focus,
+header.global.slim > nav ol.user > li.primary > a.focus,
+header.global > nav ol.user > li.primary > a:active.focus,
+header.global-new > nav ol.user > li.primary > a:active.focus,
+header.global.slim > nav ol.user > li.primary > a:active.focus,
+header.global > nav ol.user > li.primary > a.active.focus,
+header.global-new > nav ol.user > li.primary > a.active.focus,
+header.global.slim > nav ol.user > li.primary > a.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+header.global > nav ol.user > li.primary > a:hover,
+header.global-new > nav ol.user > li.primary > a:hover,
+header.global.slim > nav ol.user > li.primary > a:hover,
+header.global > nav ol.user > li.primary > a:focus,
+header.global-new > nav ol.user > li.primary > a:focus,
+header.global.slim > nav ol.user > li.primary > a:focus,
+header.global > nav ol.user > li.primary > a.focus,
+header.global-new > nav ol.user > li.primary > a.focus,
+header.global.slim > nav ol.user > li.primary > a.focus {
+  color: #333333;
+  text-decoration: none;
+}
+header.global > nav ol.user > li.primary > a:active,
+header.global-new > nav ol.user > li.primary > a:active,
+header.global.slim > nav ol.user > li.primary > a:active,
+header.global > nav ol.user > li.primary > a.active,
+header.global-new > nav ol.user > li.primary > a.active,
+header.global.slim > nav ol.user > li.primary > a.active {
+  outline: 0;
+  background-image: none;
+}
+header.global > nav ol.user > li.primary > a.disabled,
+header.global-new > nav ol.user > li.primary > a.disabled,
+header.global.slim > nav ol.user > li.primary > a.disabled,
+header.global > nav ol.user > li.primary > a[disabled],
+header.global-new > nav ol.user > li.primary > a[disabled],
+header.global.slim > nav ol.user > li.primary > a[disabled],
+fieldset[disabled] header.global > nav ol.user > li.primary > a,
+fieldset[disabled] header.global-new > nav ol.user > li.primary > a,
+fieldset[disabled] header.global.slim > nav ol.user > li.primary > a {
+  cursor: not-allowed;
+  opacity: .65;
+}
+aheader.global > nav ol.user > li.primary > a.disabled,
+aheader.global-new > nav ol.user > li.primary > a.disabled,
+aheader.global.slim > nav ol.user > li.primary > a.disabled,
+fieldset[disabled] aheader.global > nav ol.user > li.primary > a,
+fieldset[disabled] aheader.global-new > nav ol.user > li.primary > a,
+fieldset[disabled] aheader.global.slim > nav ol.user > li.primary > a {
+  pointer-events: none;
+}
+header.global > nav ol.user > li.primary > a:focus,
+header.global-new > nav ol.user > li.primary > a:focus,
+header.global.slim > nav ol.user > li.primary > a:focus,
+header.global > nav ol.user > li.primary > a.focus,
+header.global-new > nav ol.user > li.primary > a.focus,
+header.global.slim > nav ol.user > li.primary > a.focus {
+  color: #058ed0;
+  background-color: #e6e6e6;
+  border-color: #023953;
+}
+header.global > nav ol.user > li.primary > a:hover,
+header.global-new > nav ol.user > li.primary > a:hover,
+header.global.slim > nav ol.user > li.primary > a:hover {
+  color: #058ed0;
+  background-color: #e6e6e6;
+  border-color: #046594;
+}
+header.global > nav ol.user > li.primary > a:active,
+header.global-new > nav ol.user > li.primary > a:active,
+header.global.slim > nav ol.user > li.primary > a:active,
+header.global > nav ol.user > li.primary > a.active,
+header.global-new > nav ol.user > li.primary > a.active,
+header.global.slim > nav ol.user > li.primary > a.active,
+.open > .dropdown-toggleheader.global > nav ol.user > li.primary > a,
+.open > .dropdown-toggleheader.global-new > nav ol.user > li.primary > a,
+.open > .dropdown-toggleheader.global.slim > nav ol.user > li.primary > a {
+  color: #058ed0;
+  background-color: #e6e6e6;
+  border-color: #046594;
+}
+header.global > nav ol.user > li.primary > a:active:hover,
+header.global-new > nav ol.user > li.primary > a:active:hover,
+header.global.slim > nav ol.user > li.primary > a:active:hover,
+header.global > nav ol.user > li.primary > a.active:hover,
+header.global-new > nav ol.user > li.primary > a.active:hover,
+header.global.slim > nav ol.user > li.primary > a.active:hover,
+.open > .dropdown-toggleheader.global > nav ol.user > li.primary > a:hover,
+.open > .dropdown-toggleheader.global-new > nav ol.user > li.primary > a:hover,
+.open > .dropdown-toggleheader.global.slim > nav ol.user > li.primary > a:hover,
+header.global > nav ol.user > li.primary > a:active:focus,
+header.global-new > nav ol.user > li.primary > a:active:focus,
+header.global.slim > nav ol.user > li.primary > a:active:focus,
+header.global > nav ol.user > li.primary > a.active:focus,
+header.global-new > nav ol.user > li.primary > a.active:focus,
+header.global.slim > nav ol.user > li.primary > a.active:focus,
+.open > .dropdown-toggleheader.global > nav ol.user > li.primary > a:focus,
+.open > .dropdown-toggleheader.global-new > nav ol.user > li.primary > a:focus,
+.open > .dropdown-toggleheader.global.slim > nav ol.user > li.primary > a:focus,
+header.global > nav ol.user > li.primary > a:active.focus,
+header.global-new > nav ol.user > li.primary > a:active.focus,
+header.global.slim > nav ol.user > li.primary > a:active.focus,
+header.global > nav ol.user > li.primary > a.active.focus,
+header.global-new > nav ol.user > li.primary > a.active.focus,
+header.global.slim > nav ol.user > li.primary > a.active.focus,
+.open > .dropdown-toggleheader.global > nav ol.user > li.primary > a.focus,
+.open > .dropdown-toggleheader.global-new > nav ol.user > li.primary > a.focus,
+.open > .dropdown-toggleheader.global.slim > nav ol.user > li.primary > a.focus {
+  color: #058ed0;
+  background-color: #d4d4d4;
+  border-color: #023953;
+}
+header.global > nav ol.user > li.primary > a:active,
+header.global-new > nav ol.user > li.primary > a:active,
+header.global.slim > nav ol.user > li.primary > a:active,
+header.global > nav ol.user > li.primary > a.active,
+header.global-new > nav ol.user > li.primary > a.active,
+header.global.slim > nav ol.user > li.primary > a.active,
+.open > .dropdown-toggleheader.global > nav ol.user > li.primary > a,
+.open > .dropdown-toggleheader.global-new > nav ol.user > li.primary > a,
+.open > .dropdown-toggleheader.global.slim > nav ol.user > li.primary > a {
+  background-image: none;
+}
+header.global > nav ol.user > li.primary > a.disabled:hover,
+header.global-new > nav ol.user > li.primary > a.disabled:hover,
+header.global.slim > nav ol.user > li.primary > a.disabled:hover,
+header.global > nav ol.user > li.primary > a[disabled]:hover,
+header.global-new > nav ol.user > li.primary > a[disabled]:hover,
+header.global.slim > nav ol.user > li.primary > a[disabled]:hover,
+fieldset[disabled] header.global > nav ol.user > li.primary > a:hover,
+fieldset[disabled] header.global-new > nav ol.user > li.primary > a:hover,
+fieldset[disabled] header.global.slim > nav ol.user > li.primary > a:hover,
+header.global > nav ol.user > li.primary > a.disabled:focus,
+header.global-new > nav ol.user > li.primary > a.disabled:focus,
+header.global.slim > nav ol.user > li.primary > a.disabled:focus,
+header.global > nav ol.user > li.primary > a[disabled]:focus,
+header.global-new > nav ol.user > li.primary > a[disabled]:focus,
+header.global.slim > nav ol.user > li.primary > a[disabled]:focus,
+fieldset[disabled] header.global > nav ol.user > li.primary > a:focus,
+fieldset[disabled] header.global-new > nav ol.user > li.primary > a:focus,
+fieldset[disabled] header.global.slim > nav ol.user > li.primary > a:focus,
+header.global > nav ol.user > li.primary > a.disabled.focus,
+header.global-new > nav ol.user > li.primary > a.disabled.focus,
+header.global.slim > nav ol.user > li.primary > a.disabled.focus,
+header.global > nav ol.user > li.primary > a[disabled].focus,
+header.global-new > nav ol.user > li.primary > a[disabled].focus,
+header.global.slim > nav ol.user > li.primary > a[disabled].focus,
+fieldset[disabled] header.global > nav ol.user > li.primary > a.focus,
+fieldset[disabled] header.global-new > nav ol.user > li.primary > a.focus,
+fieldset[disabled] header.global.slim > nav ol.user > li.primary > a.focus {
+  background-color: #ffffff;
+  border-color: #058ed0;
+}
+header.global > nav ol.user > li.primary > a .badge,
+header.global-new > nav ol.user > li.primary > a .badge,
+header.global.slim > nav ol.user > li.primary > a .badge {
+  color: #ffffff;
+  background-color: #058ed0;
+}
+@media (max-width: 767px) {
+  header.global > nav ol.user > li.primary > a,
+  header.global-new > nav ol.user > li.primary > a,
+  header.global.slim > nav ol.user > li.primary > a {
+    white-space: normal;
+  }
+}
+header.global > nav ol.user > li.primary > a:focus,
+header.global-new > nav ol.user > li.primary > a:focus,
+header.global.slim > nav ol.user > li.primary > a:focus {
+  background-color: #ffffff;
+  color: #058ed0;
+  border-color: #058ed0;
+}
+header.global > nav ol.user > li.primary > a:focus,
+header.global-new > nav ol.user > li.primary > a:focus,
+header.global.slim > nav ol.user > li.primary > a:focus,
+header.global > nav ol.user > li.primary > a:active,
+header.global-new > nav ol.user > li.primary > a:active,
+header.global.slim > nav ol.user > li.primary > a:active {
+  background: none;
+  background-color: #058ed0;
+  color: #ffffff;
+  box-shadow: none;
+  border-color: #058ed0;
+  border-color: #ffffff;
+  outline: none;
+}
+header.global > nav ol.user > li.primary > a:hover,
+header.global-new > nav ol.user > li.primary > a:hover,
+header.global.slim > nav ol.user > li.primary > a:hover {
+  background: none;
+  background-color: #058ed0;
+  color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: none;
+  border-color: #058ed0;
+}
+header.global > nav ol.user > li.primary > a.user-link,
+header.global-new > nav ol.user > li.primary > a.user-link,
+header.global.slim > nav ol.user > li.primary > a.user-link {
+  max-width: 120px;
+}
+header.global > nav ol.user > li.primary > a.user-link i.fa,
+header.global-new > nav ol.user > li.primary > a.user-link i.fa,
+header.global.slim > nav ol.user > li.primary > a.user-link i.fa {
+  display: none;
+}
+header.global > nav ol.user > li.primary > a.user-link div,
+header.global-new > nav ol.user > li.primary > a.user-link div,
+header.global.slim > nav ol.user > li.primary > a.user-link div {
+  margin: 0;
+  padding: 0;
+}
+header.global > nav ol.user > li.primary > a.dropdown.active,
+header.global-new > nav ol.user > li.primary > a.dropdown.active,
+header.global.slim > nav ol.user > li.primary > a.dropdown.active {
+  background: none;
+  background-color: #ffffff;
+  color: #058ed0;
+  border-color: #058ed0;
+  box-shadow: none;
+}
+header.global > nav ol.user > li.primary > a.dropdown,
+header.global-new > nav ol.user > li.primary > a.dropdown,
+header.global.slim > nav ol.user > li.primary > a.dropdown {
+  padding: 7px 8px;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  letter-spacing: normal;
+}
+header.global > nav ol.user > li.primary > a > span.avatar,
+header.global-new > nav ol.user > li.primary > a > span.avatar,
+header.global.slim > nav ol.user > li.primary > a > span.avatar {
+  display: none;
+  background: none;
+}
+header.global > nav ol.user ul.dropdown-menu,
+header.global-new > nav ol.user ul.dropdown-menu,
+header.global.slim > nav ol.user ul.dropdown-menu {
+  width: auto;
+  height: auto;
+  padding: 0;
+  z-index: 10;
+  top: 57px;
+  left: initial;
+  box-shadow: none;
+  border: 1px solid #ffffff;
+  border-top: 0 none;
+  border-top-right-radius: 0;
+  background-color: #ffffff;
+}
+header.global > nav ol.user ul.dropdown-menu:before,
+header.global-new > nav ol.user ul.dropdown-menu:before,
+header.global.slim > nav ol.user ul.dropdown-menu:before {
+  display: none;
+}
+header.global > nav ol.user ul.dropdown-menu li#userTop::before,
+header.global-new > nav ol.user ul.dropdown-menu li#userTop::before,
+header.global.slim > nav ol.user ul.dropdown-menu li#userTop::before {
+  content: " ";
+  position: absolute;
+  right: 19px;
+  top: -9px;
+  width: 0px;
+  height: 0px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 9px solid #FFFFFF;
+}
+header.global > nav ol.user ul.dropdown-menu > li,
+header.global-new > nav ol.user ul.dropdown-menu > li,
+header.global.slim > nav ol.user ul.dropdown-menu > li {
+  transition: all 0.1s ease-in;
+  border: 0 none;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  color: #058ed0;
+  background-color: #ffffff;
+}
+header.global > nav ol.user ul.dropdown-menu > li > a,
+header.global-new > nav ol.user ul.dropdown-menu > li > a,
+header.global.slim > nav ol.user ul.dropdown-menu > li > a {
+  border: 0 none;
+  outline: none;
+  padding: 0;
+  letter-spacing: normal;
+  color: inherit;
+  background-color: inherit;
+}
+header.global > nav ol.user ul.dropdown-menu > li > a:hover,
+header.global-new > nav ol.user ul.dropdown-menu > li > a:hover,
+header.global.slim > nav ol.user ul.dropdown-menu > li > a:hover,
+header.global > nav ol.user ul.dropdown-menu > li > a:focus,
+header.global-new > nav ol.user ul.dropdown-menu > li > a:focus,
+header.global.slim > nav ol.user ul.dropdown-menu > li > a:focus,
+header.global > nav ol.user ul.dropdown-menu > li > a:active,
+header.global-new > nav ol.user ul.dropdown-menu > li > a:active,
+header.global.slim > nav ol.user ul.dropdown-menu > li > a:active {
+  background: inherit;
+  color: inherit;
+}
+header.global > nav ol.user ul.dropdown-menu > li:hover,
+header.global-new > nav ol.user ul.dropdown-menu > li:hover,
+header.global.slim > nav ol.user ul.dropdown-menu > li:hover {
+  background-color: #058ed0;
+  color: #ffffff;
+}
+header.global > nav ol.user ul.dropdown-menu > li:hover > a,
+header.global-new > nav ol.user ul.dropdown-menu > li:hover > a,
+header.global.slim > nav ol.user ul.dropdown-menu > li:hover > a {
+  color: inherit;
+}
+header.global > nav ol.menu,
+header.global-new > nav ol.menu,
+header.global.slim > nav ol.menu {
+  margin: 4px 0 0 0;
+}
+header.global > nav ol.menu > li h1.menu,
+header.global-new > nav ol.menu > li h1.menu,
+header.global.slim > nav ol.menu > li h1.menu {
+  width: 30px;
+  float: left;
+  margin: 0px 30px 0 0;
+  font-size: 20px;
+}
+header.global > nav ol.menu > li h1.menu a i,
+header.global-new > nav ol.menu > li h1.menu a i,
+header.global.slim > nav ol.menu > li h1.menu a i {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #058ed0;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+header.global > nav ol.menu > li h1.menu a i:hover,
+header.global-new > nav ol.menu > li h1.menu a i:hover,
+header.global.slim > nav ol.menu > li h1.menu a i:hover {
+  color: #ffffff;
+  background-color: #058ed0;
+}
+header.global > nav ol.menu > li.primary > a,
+header.global-new > nav ol.menu > li.primary > a,
+header.global.slim > nav ol.menu > li.primary > a {
+  width: auto;
+  height: auto;
+  font: inherit;
+  background: none;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  color: #8e8787;
+  background-color: #ffffff;
+  border-color: #8e8787;
+  text-shadow: none;
+  text-overflow: ellipsis;
+  transition: all 0.1s ease-in;
+  box-shadow: none;
+  margin: 0;
+  padding: 0.5em 1.2em;
+  outline: none;
+  overflow: hidden;
+  border: none !important;
+  border-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-radius: 4px 0 0 4px;
+}
+header.global > nav ol.menu > li.primary > a:focus,
+header.global-new > nav ol.menu > li.primary > a:focus,
+header.global.slim > nav ol.menu > li.primary > a:focus,
+header.global > nav ol.menu > li.primary > a:active:focus,
+header.global-new > nav ol.menu > li.primary > a:active:focus,
+header.global.slim > nav ol.menu > li.primary > a:active:focus,
+header.global > nav ol.menu > li.primary > a.active:focus,
+header.global-new > nav ol.menu > li.primary > a.active:focus,
+header.global.slim > nav ol.menu > li.primary > a.active:focus,
+header.global > nav ol.menu > li.primary > a.focus,
+header.global-new > nav ol.menu > li.primary > a.focus,
+header.global.slim > nav ol.menu > li.primary > a.focus,
+header.global > nav ol.menu > li.primary > a:active.focus,
+header.global-new > nav ol.menu > li.primary > a:active.focus,
+header.global.slim > nav ol.menu > li.primary > a:active.focus,
+header.global > nav ol.menu > li.primary > a.active.focus,
+header.global-new > nav ol.menu > li.primary > a.active.focus,
+header.global.slim > nav ol.menu > li.primary > a.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+header.global > nav ol.menu > li.primary > a:hover,
+header.global-new > nav ol.menu > li.primary > a:hover,
+header.global.slim > nav ol.menu > li.primary > a:hover,
+header.global > nav ol.menu > li.primary > a:focus,
+header.global-new > nav ol.menu > li.primary > a:focus,
+header.global.slim > nav ol.menu > li.primary > a:focus,
+header.global > nav ol.menu > li.primary > a.focus,
+header.global-new > nav ol.menu > li.primary > a.focus,
+header.global.slim > nav ol.menu > li.primary > a.focus {
+  color: #333333;
+  text-decoration: none;
+}
+header.global > nav ol.menu > li.primary > a:active,
+header.global-new > nav ol.menu > li.primary > a:active,
+header.global.slim > nav ol.menu > li.primary > a:active,
+header.global > nav ol.menu > li.primary > a.active,
+header.global-new > nav ol.menu > li.primary > a.active,
+header.global.slim > nav ol.menu > li.primary > a.active {
+  outline: 0;
+  background-image: none;
+}
+header.global > nav ol.menu > li.primary > a.disabled,
+header.global-new > nav ol.menu > li.primary > a.disabled,
+header.global.slim > nav ol.menu > li.primary > a.disabled,
+header.global > nav ol.menu > li.primary > a[disabled],
+header.global-new > nav ol.menu > li.primary > a[disabled],
+header.global.slim > nav ol.menu > li.primary > a[disabled],
+fieldset[disabled] header.global > nav ol.menu > li.primary > a,
+fieldset[disabled] header.global-new > nav ol.menu > li.primary > a,
+fieldset[disabled] header.global.slim > nav ol.menu > li.primary > a {
+  cursor: not-allowed;
+  opacity: .65;
+}
+aheader.global > nav ol.menu > li.primary > a.disabled,
+aheader.global-new > nav ol.menu > li.primary > a.disabled,
+aheader.global.slim > nav ol.menu > li.primary > a.disabled,
+fieldset[disabled] aheader.global > nav ol.menu > li.primary > a,
+fieldset[disabled] aheader.global-new > nav ol.menu > li.primary > a,
+fieldset[disabled] aheader.global.slim > nav ol.menu > li.primary > a {
+  pointer-events: none;
+}
+header.global > nav ol.menu > li.primary > a:focus,
+header.global-new > nav ol.menu > li.primary > a:focus,
+header.global.slim > nav ol.menu > li.primary > a:focus,
+header.global > nav ol.menu > li.primary > a.focus,
+header.global-new > nav ol.menu > li.primary > a.focus,
+header.global.slim > nav ol.menu > li.primary > a.focus {
+  color: #8e8787;
+  background-color: #e6e6e6;
+  border-color: #4d4949;
+}
+header.global > nav ol.menu > li.primary > a:hover,
+header.global-new > nav ol.menu > li.primary > a:hover,
+header.global.slim > nav ol.menu > li.primary > a:hover {
+  color: #8e8787;
+  background-color: #e6e6e6;
+  border-color: #6f6969;
+}
+header.global > nav ol.menu > li.primary > a:active,
+header.global-new > nav ol.menu > li.primary > a:active,
+header.global.slim > nav ol.menu > li.primary > a:active,
+header.global > nav ol.menu > li.primary > a.active,
+header.global-new > nav ol.menu > li.primary > a.active,
+header.global.slim > nav ol.menu > li.primary > a.active,
+.open > .dropdown-toggleheader.global > nav ol.menu > li.primary > a,
+.open > .dropdown-toggleheader.global-new > nav ol.menu > li.primary > a,
+.open > .dropdown-toggleheader.global.slim > nav ol.menu > li.primary > a {
+  color: #8e8787;
+  background-color: #e6e6e6;
+  border-color: #6f6969;
+}
+header.global > nav ol.menu > li.primary > a:active:hover,
+header.global-new > nav ol.menu > li.primary > a:active:hover,
+header.global.slim > nav ol.menu > li.primary > a:active:hover,
+header.global > nav ol.menu > li.primary > a.active:hover,
+header.global-new > nav ol.menu > li.primary > a.active:hover,
+header.global.slim > nav ol.menu > li.primary > a.active:hover,
+.open > .dropdown-toggleheader.global > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-toggleheader.global-new > nav ol.menu > li.primary > a:hover,
+.open > .dropdown-toggleheader.global.slim > nav ol.menu > li.primary > a:hover,
+header.global > nav ol.menu > li.primary > a:active:focus,
+header.global-new > nav ol.menu > li.primary > a:active:focus,
+header.global.slim > nav ol.menu > li.primary > a:active:focus,
+header.global > nav ol.menu > li.primary > a.active:focus,
+header.global-new > nav ol.menu > li.primary > a.active:focus,
+header.global.slim > nav ol.menu > li.primary > a.active:focus,
+.open > .dropdown-toggleheader.global > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-toggleheader.global-new > nav ol.menu > li.primary > a:focus,
+.open > .dropdown-toggleheader.global.slim > nav ol.menu > li.primary > a:focus,
+header.global > nav ol.menu > li.primary > a:active.focus,
+header.global-new > nav ol.menu > li.primary > a:active.focus,
+header.global.slim > nav ol.menu > li.primary > a:active.focus,
+header.global > nav ol.menu > li.primary > a.active.focus,
+header.global-new > nav ol.menu > li.primary > a.active.focus,
+header.global.slim > nav ol.menu > li.primary > a.active.focus,
+.open > .dropdown-toggleheader.global > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-toggleheader.global-new > nav ol.menu > li.primary > a.focus,
+.open > .dropdown-toggleheader.global.slim > nav ol.menu > li.primary > a.focus {
+  color: #8e8787;
+  background-color: #d4d4d4;
+  border-color: #4d4949;
+}
+header.global > nav ol.menu > li.primary > a:active,
+header.global-new > nav ol.menu > li.primary > a:active,
+header.global.slim > nav ol.menu > li.primary > a:active,
+header.global > nav ol.menu > li.primary > a.active,
+header.global-new > nav ol.menu > li.primary > a.active,
+header.global.slim > nav ol.menu > li.primary > a.active,
+.open > .dropdown-toggleheader.global > nav ol.menu > li.primary > a,
+.open > .dropdown-toggleheader.global-new > nav ol.menu > li.primary > a,
+.open > .dropdown-toggleheader.global.slim > nav ol.menu > li.primary > a {
+  background-image: none;
+}
+header.global > nav ol.menu > li.primary > a.disabled:hover,
+header.global-new > nav ol.menu > li.primary > a.disabled:hover,
+header.global.slim > nav ol.menu > li.primary > a.disabled:hover,
+header.global > nav ol.menu > li.primary > a[disabled]:hover,
+header.global-new > nav ol.menu > li.primary > a[disabled]:hover,
+header.global.slim > nav ol.menu > li.primary > a[disabled]:hover,
+fieldset[disabled] header.global > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] header.global-new > nav ol.menu > li.primary > a:hover,
+fieldset[disabled] header.global.slim > nav ol.menu > li.primary > a:hover,
+header.global > nav ol.menu > li.primary > a.disabled:focus,
+header.global-new > nav ol.menu > li.primary > a.disabled:focus,
+header.global.slim > nav ol.menu > li.primary > a.disabled:focus,
+header.global > nav ol.menu > li.primary > a[disabled]:focus,
+header.global-new > nav ol.menu > li.primary > a[disabled]:focus,
+header.global.slim > nav ol.menu > li.primary > a[disabled]:focus,
+fieldset[disabled] header.global > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] header.global-new > nav ol.menu > li.primary > a:focus,
+fieldset[disabled] header.global.slim > nav ol.menu > li.primary > a:focus,
+header.global > nav ol.menu > li.primary > a.disabled.focus,
+header.global-new > nav ol.menu > li.primary > a.disabled.focus,
+header.global.slim > nav ol.menu > li.primary > a.disabled.focus,
+header.global > nav ol.menu > li.primary > a[disabled].focus,
+header.global-new > nav ol.menu > li.primary > a[disabled].focus,
+header.global.slim > nav ol.menu > li.primary > a[disabled].focus,
+fieldset[disabled] header.global > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] header.global-new > nav ol.menu > li.primary > a.focus,
+fieldset[disabled] header.global.slim > nav ol.menu > li.primary > a.focus {
+  background-color: #ffffff;
+  border-color: #8e8787;
+}
+header.global > nav ol.menu > li.primary > a .badge,
+header.global-new > nav ol.menu > li.primary > a .badge,
+header.global.slim > nav ol.menu > li.primary > a .badge {
+  color: #ffffff;
+  background-color: #8e8787;
+}
+@media (max-width: 767px) {
+  header.global > nav ol.menu > li.primary > a,
+  header.global-new > nav ol.menu > li.primary > a,
+  header.global.slim > nav ol.menu > li.primary > a {
+    white-space: normal;
+  }
+}
+header.global > nav ol.menu > li.primary > a:focus,
+header.global-new > nav ol.menu > li.primary > a:focus,
+header.global.slim > nav ol.menu > li.primary > a:focus {
+  background-color: #ffffff;
+  color: #8e8787;
+  border-color: #8e8787;
+}
+header.global > nav ol.menu > li.primary > a:focus,
+header.global-new > nav ol.menu > li.primary > a:focus,
+header.global.slim > nav ol.menu > li.primary > a:focus,
+header.global > nav ol.menu > li.primary > a:active,
+header.global-new > nav ol.menu > li.primary > a:active,
+header.global.slim > nav ol.menu > li.primary > a:active {
+  background: none;
+  background-color: #8e8787;
+  color: #ffffff;
+  box-shadow: none;
+  border-color: #8e8787;
+  border-color: #ffffff;
+  outline: none;
+}
+header.global > nav ol.menu > li.primary > a:hover,
+header.global-new > nav ol.menu > li.primary > a:hover,
+header.global.slim > nav ol.menu > li.primary > a:hover {
+  background: none;
+  background-color: #8e8787;
+  color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: none;
+  border-color: #8e8787;
+}
+header.global > nav ol.menu > li.primary > a.user-link,
+header.global-new > nav ol.menu > li.primary > a.user-link,
+header.global.slim > nav ol.menu > li.primary > a.user-link {
+  max-width: 120px;
+}
+header.global > nav ol.menu > li.primary > a.user-link i.fa,
+header.global-new > nav ol.menu > li.primary > a.user-link i.fa,
+header.global.slim > nav ol.menu > li.primary > a.user-link i.fa {
+  display: none;
+}
+header.global > nav ol.menu > li.primary > a.user-link div,
+header.global-new > nav ol.menu > li.primary > a.user-link div,
+header.global.slim > nav ol.menu > li.primary > a.user-link div {
+  margin: 0;
+  padding: 0;
+}
+header.global > nav ol.menu > li.primary > a.dropdown2.active,
+header.global-new > nav ol.menu > li.primary > a.dropdown2.active,
+header.global.slim > nav ol.menu > li.primary > a.dropdown2.active {
+  background: none;
+  background-color: #ffffff;
+  color: #8e8787;
+  border-color: #8e8787;
+  box-shadow: none;
+}
+header.global > nav ol.menu > li.primary > a.dropdown2,
+header.global-new > nav ol.menu > li.primary > a.dropdown2,
+header.global.slim > nav ol.menu > li.primary > a.dropdown2 {
+  padding: 7px 8px;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  letter-spacing: normal;
+}
+header.global > nav ol.menu > li.primary > a > span.avatar,
+header.global-new > nav ol.menu > li.primary > a > span.avatar,
+header.global.slim > nav ol.menu > li.primary > a > span.avatar {
+  display: none;
+  background: none;
+}
+header.global > nav ol.menu ul.dropdown-menu2,
+header.global-new > nav ol.menu ul.dropdown-menu2,
+header.global.slim > nav ol.menu ul.dropdown-menu2 {
+  width: calc(100% - 20px);
+  min-height: 408px;
+  z-index: 10;
+  left: 11px;
+  top: 86px;
+  position: absolute;
+  border: 1px solid #ffffff;
+  padding: 0;
+  z-index: 100;
+  box-shadow: none;
+  border-top: 0 none;
+  background-color: #ffffff;
+}
+header.global > nav ol.menu ul.dropdown-menu2:before,
+header.global-new > nav ol.menu ul.dropdown-menu2:before,
+header.global.slim > nav ol.menu ul.dropdown-menu2:before {
+  display: none;
+}
+header.global > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+header.global-new > nav ol.menu ul.dropdown-menu2 li#menuTop::before,
+header.global.slim > nav ol.menu ul.dropdown-menu2 li#menuTop::before {
+  content: " ";
+  position: absolute;
+  left: 10px;
+  top: -9px;
+  width: 0px;
+  height: 0px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 9px solid #FFFFFF;
+}
+header.global > nav ol.menu ul.dropdown-menu2 > li,
+header.global-new > nav ol.menu ul.dropdown-menu2 > li,
+header.global.slim > nav ol.menu ul.dropdown-menu2 > li {
+  transition: all 0.1s ease-in;
+  border: 0 none;
+  padding: 10px 10px;
+  color: #058ed0;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+header.global > nav ol.menu ul.dropdown-menu2 > li > a,
+header.global-new > nav ol.menu ul.dropdown-menu2 > li > a,
+header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a {
+  border: 0 none;
+  outline: none;
+  padding: 0;
+  letter-spacing: normal;
+  color: inherit;
+  background-color: inherit;
+  text-decoration: none;
+}
+header.global > nav ol.menu ul.dropdown-menu2 > li > a:hover,
+header.global-new > nav ol.menu ul.dropdown-menu2 > li > a:hover,
+header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a:hover,
+header.global > nav ol.menu ul.dropdown-menu2 > li > a:focus,
+header.global-new > nav ol.menu ul.dropdown-menu2 > li > a:focus,
+header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a:focus,
+header.global > nav ol.menu ul.dropdown-menu2 > li > a:active,
+header.global-new > nav ol.menu ul.dropdown-menu2 > li > a:active,
+header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a:active {
+  background-color: inherit;
+  color: inherit;
+}
+header.global > nav ol.menu ul.dropdown-menu2 > li > a > img,
+header.global-new > nav ol.menu ul.dropdown-menu2 > li > a > img,
+header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a > img {
+  width: 25px;
+  margin-right: 10px;
+}
+header.global > nav ol.menu ul.dropdown-menu2 > li > a > i,
+header.global-new > nav ol.menu ul.dropdown-menu2 > li > a > i,
+header.global.slim > nav ol.menu ul.dropdown-menu2 > li > a > i {
+  margin-right: 7px;
+}
+header.global > nav ol.menu ul.dropdown-menu2 > li:hover,
+header.global-new > nav ol.menu ul.dropdown-menu2 > li:hover,
+header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover {
+  background-color: #058ed0;
+  color: #ffffff;
+}
+header.global > nav ol.menu ul.dropdown-menu2 > li:hover > a,
+header.global-new > nav ol.menu ul.dropdown-menu2 > li:hover > a,
+header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover > a {
+  color: inherit;
+}
+header.global > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+header.global-new > nav ol.menu ul.dropdown-menu2 > li:hover > a > img,
+header.global.slim > nav ol.menu ul.dropdown-menu2 > li:hover > a > img {
+  -webkit-filter: brightness(500%) grayscale(100%);
+  filter: brightness(500%) grayscale(100%);
+}
+.view-profile .profile-image-field .image-wrapper {
+  border-radius: 50%;
+  border: 2px solid #B7AAAA;
+}
+.view-profile .profile-image-field .image-wrapper .image-frame {
+  border-radius: 50%;
+}
+.view-profile .content-wrapper {
+  background-color: #F9F9F9;
+}
+.view-profile .profile-self .wrapper-profile-field-account-privacy {
+  background-color: #FFFFFF;
+}
+/*# sourceMappingURL=header2.css.map */
+</style>

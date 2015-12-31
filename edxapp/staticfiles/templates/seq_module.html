@@ -1,0 +1,176 @@
+<%! from django.utils.translation import ugettext as _ %>
+
+<div id="sequence_${element_id}" class="course-details sequence" data-id="${item_id}" data-position="${position}" data-ajax-url="${ajax_url}" >
+
+    <div class="course-details-header">
+      <div class="header-title" style="position: relative; top: -15px;" id="sequenceTitle">1. Introduction</div>
+      <div class="buttons-wrapper text-right">
+          <button class="btn btn-gray sequence-nav-button button-next" type="submit" id="buttonNext" onclick="progressMe(1)">
+            <img src="https://dl.dropboxusercontent.com/s/qoh3djdpqz86a2e/arrow-r.png" width="20" height="20">
+          </button>
+          <button class="btn btn-gray sequence-nav-button button-previous" type="submit" id="buttonPrevious" onclick="progressMe(-1)">
+            <img src="https://dl.dropboxusercontent.com/s/cheqefi0y61cln0/arrow-l.png" width="20 " height="20" >
+          </button>
+      </div>
+    </div>
+    <div class="header-video-icon">
+      <img src="https://dl.dropboxusercontent.com/s/pma8wbtini89mqk/camera-icon.png" width="20" height="20">
+    </div>
+    <div class="steps-count text-right">
+      Step <span id="stepNum">1</span> of <span id="stepLen">4</span>
+    </div>
+
+
+  <div class="sequence-nav" style="display:none;">
+      <nav class="sequence-list-wrapper" aria-label="${_('Unit')}">
+      <ol id="sequence-list">
+        % for idx, item in enumerate(items):
+        ## TODO (vshnayder): add item.progress_detail either to the title or somewhere else.
+        ## Make sure it gets updated after ajax calls.
+        ## implementation note: will need to figure out how to handle combining detail
+        ## statuses of multiple modules in js.
+        <li>
+        <a class="seq_${item['type']} inactive progress-${item['progress_status']}"
+           data-id="${item['id']}"
+           data-element="${idx+1}"
+           href="javascript:void(0);"
+           title="${item['title']|h}"
+           data-page-title="${item['page_title']|h}"
+           aria-controls="seq_contents_${idx}"
+           id="tab_${idx}"
+           tabindex="0">
+            <i class="icon fa seq_${item['type']}" aria-hidden="true"></i>
+            <p><span class="sr">${item['type']}</span> ${item['title']}</p>
+          </a>
+        </li>
+        % endfor
+      </ol>
+    </nav>
+  </div>
+
+  <div class="sr-is-focusable" tabindex="-1"></div>
+
+  % for idx, item in enumerate(items):
+  <div id="seq_contents_${idx}"
+    aria-labelledby="tab_${idx}"
+    aria-hidden="true"
+    class="seq_contents tex2jax_ignore asciimath2jax_ignore">
+    ${item['content'] | h}
+  </div>
+  % endfor
+  <div id="seq_content"></div>
+
+
+
+</div>
+
+
+
+<script type="text/javascript">
+ var sequenceNav, iconPlace, indexedAc, lengthAc, progressAc, blockNext, blockPrev, paragraph, olSeq;
+ var titleKeep = [];
+  function startingMe(adding){
+    //First Jquery Called
+    $('button#buttonPrevious').prop('disabled', true);
+    $('button#buttonNext').prop('disabled', true);
+    console.log('adding', adding);
+    if(typeof(adding) == 'undefined'){
+      indexedAc = ($("ol#sequence-list li a.active").parent().index()+1);
+      if (indexedAc == 1){blockPrev = true;}
+      //Block previous on document ready call on function in case first load is first unit
+    } else {
+      indexedAc = indexedAc+adding;
+    }
+    
+    lengthAc = $("ol#sequence-list li").length;
+    progressAc = (indexedAc/lengthAc)*100;
+    console.log("indexedAc is: ",indexedAc);
+    console.log("lengthAc is: ",lengthAc);
+    console.log("Progress is: ",progressAc);
+     $( "#progressbar" ).width(progressAc+'%');
+     $('#stepNum').text(indexedAc);
+     $('#stepLen').text(lengthAc);
+     paragraph = $('ol#sequence-list').find('a.active').find('p').text();
+     lengthP = paragraph.length;
+      console.log('Paragraph is: ',paragraph.length);
+      $('#sequenceTitle').html(paragraph);
+      if(lengthP == 0){
+        $('#sequenceTitle').text(indexedAc+'. '+takeTitle(indexedAc, titleKeep));
+      }      
+      setTimeout(function(){      
+      $('button#buttonPrevious').prop('disabled', false);
+      $('button#buttonNext').prop('disabled', false);
+    },2850);
+    
+      
+     return false;
+  };
+  function progressMe(adding){
+    //Works with titleKeep Array
+    $('button#buttonPrevious').prop('disabled', true);
+    $('button#buttonNext').prop('disabled', true);
+    console.log('adding', adding); 
+    if (adding == 1 && (indexedAc <= lengthAc)){
+      console.log((lengthAc-indexedAc)+' more Allowed');
+      indexedAc = indexedAc+adding;
+    } else if(adding == -1 && (indexedAc > 1)){
+      console.log((indexedAc-1)+' less Allowed');
+      indexedAc = indexedAc+adding;
+    }
+
+    lengthAc = titleKeep.length;
+    progressAc = (indexedAc/lengthAc)*100;
+    console.log("indexedAc is: ",indexedAc);
+    console.log("lengthAc is: ",lengthAc);
+    console.log("Progress is: ",progressAc);
+     $( "#progressbar" ).width(progressAc+'%');
+     $('#stepNum').text(indexedAc);
+     $('#stepLen').text(lengthAc);     
+     paragraph = indexedAc+'. '+takeTitle(indexedAc, titleKeep);
+     lengthP = paragraph.length;
+      console.log('Paragraph is: ',paragraph.length);
+      $('#sequenceTitle').text(paragraph);
+      if(lengthP == 0){
+        $('#sequenceTitle').text(indexedAc+'. '+takeTitle(indexedAc, titleKeep));
+      }      
+      setTimeout(function(){      
+      $('button#buttonPrevious').prop('disabled', false);
+      $('button#buttonNext').prop('disabled', false);
+    },2850);
+    
+      
+     return false;
+  };
+  $(document).ready(function() {
+    console.log('Document Ready');
+    titleKeep = [];
+    sequenceNav = new SequenceNav($('.sequence-nav'));
+    $(".lessons-wrapper").mCustomScrollbar({
+    scrollInertia:500
+     });
+    setTimeout(function(){
+    console.log('Set Timeout Called');
+    $(".lessons-wrapper").mCustomScrollbar("scrollTo",'div#current-circle');
+    },800);
+
+    $('ol#sequence-list li').each(function(index){
+      //Remove Span Children
+      $(this).find('p').children().remove();
+      text = $(this).find('p').text();
+      titleKeep.push(text);
+    });
+    console.log('TitleKeep: ',titleKeep);
+    setTimeout(function(){
+          startingMe();
+        }, 2000);
+
+    
+  });
+  function takeTitle(number, titleArray){
+    //Course Listing index starts at one
+    //Array index starts at 0
+    console.log('Take title: ',number-1);
+    console.log('Title Taken: ', titleArray[number-1]);
+    return titleArray[number-1];   
+    }
+</script>

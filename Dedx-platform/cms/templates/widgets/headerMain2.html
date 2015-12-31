@@ -1,0 +1,176 @@
+<%namespace name='static' file='../static_content.html'/>
+<%!
+  from django.conf import settings
+  from django.core.urlresolvers import reverse
+  from django.utils.translation import ugettext as _
+  from contentstore.context_processors import doc_url
+  from student.roles import CourseCreatorRole, CourseInstructorRole, CourseStaffRole
+%>
+<%page args="online_help_token"/>
+
+<script>
+$(document).ready(function () {
+  // define variables for code legibility
+    var dropdownMenuToggle2 = $('ol.menu a#mainNav');
+    var dropdownMenu2 = $('ol.menu ul.dropdown-menu2');
+    var menuItems2 = dropdownMenu2.find('a');
+  $(document.body).on("click",'ol.menu a#mainNav' , function() {
+    console.log('Menu clicked', $(this));
+    console.log('Menu dropdownMenuToggle2', dropdownMenuToggle2);
+    console.log('Menu dropdownMenu2', dropdownMenu2);
+    dropdownMenu2.toggle();
+    dropdownMenu2.toggleClass("expanded");
+    dropdownMenuToggle2.toggleClass("active");
+  });
+  if ( event.which == 32) {
+      dropdownMenuToggle2.click();
+      event.preventDefault();
+  } 
+});
+$(function() {
+    var username2 = "${user.username}";
+    console.log("Username is: ", "${user.username}");
+    var form = $(".manage-accounts-form"),
+        profileUrl = 'http://54.194.186.149/api/user/v1/accounts/USNAME',
+        menuProfile;
+
+    menuProfile = function(username) {
+        return $.ajax({
+            type: "GET",
+            url: profileUrl.replace('USNAME', username),
+            success: function(response) {
+                var imageUrl = response["profile_image"]["image_url_medium"];
+                imageUrl = imageUrl.replace("media", "static");
+                console.log('Image Url response: ', imageUrl);
+                $('#imageMain').attr("src", imageUrl);
+            }
+        });
+    };
+    
+    menuProfile(username2);
+
+    
+});
+
+</script>
+<div class="wrapper-header wrapper" id="view-top2">
+  <header class="navbar navbar-default navbar-fixed-top global">
+  <div class="col-md-12">
+     <a class="header-icon pull-left" href="#"><img src="https://dl.dropboxusercontent.com/s/w4hyv2b02bj006v/menu-icon.png"></a>
+     <a class="pull-right" href="#">
+      <div class="profile-wrapper">
+             <div class="pull-left tile-avatar"><img src="https://dl.dropboxusercontent.com/s/g8t0pddiy3v9307/avatar-default.png"></div>
+             <div class="header-icon pull-right"><img src="https://dl.dropboxusercontent.com/s/saxww8t11hv3ijy/dropdown-dots.png"></div>
+        </div>
+     </a>
+     <a class="header-icon pull-right" href="#"><img src="https://dl.dropboxusercontent.com/s/2fo6k7djaq3keci/notification-icon.png"></a>
+     <a class="header-icon pull-right" href="#"><img src="https://dl.dropboxusercontent.com/s/t36d54pr2kgq0b1/message-icon.png"></a>
+  </div>
+</header>
+  <header class="navbar navbar-default navbar-fixed-top global" style="margin-bottom:0px; top: 80px;">
+    <nav class="nav-justified nav-dd ui-right" aria-label="${_('Global')}">
+      % if course:
+        <div class="col-xs-3">
+      % else:
+        <div class="col-xs-3">
+      % endif
+      % if user.is_authenticated():
+        ## When user is authenticated from if, user properties are passed to element
+          <ol class="menu" id="menuSite">
+            <li class="primary">
+              <h1 class="menu">
+                  <a href="#" class="dropdown2" aria-haspopup="true" aria-expanded="false" id="mainNav"> 
+                
+                    <i class="fa fa-bars"></i>
+                  </a>
+              </h1>
+              <ul class="dropdown-menu2" id="menuSite" style="display: none;">
+                <%block name="navigation_dropdown_main" >
+                <li id="menuTop">
+                  <a href="/">
+                    <img src="/static/themes/edx-theme/images/menu2.png" />   ${_("My Dashboard")}
+                  </a>
+                </li>
+                <li>
+                  <a href="${marketing_link('COURSES')}">
+
+                  <img src="/static/themes/edx-theme/images/menu1.png" /> ${_("Find Courses")}
+                  </a>
+                </li>
+                  
+                </%block>
+                
+              </ul>
+            </li>
+          </ol>
+        % endif
+        </div>
+
+      % if course:
+        <div class="col-xs-5">
+         
+        </div>
+      % endif
+
+      % if user.is_authenticated():
+      <div class="col-xs-5 nav-global no-margin"> 
+        <ol class="left nav-global authenticated">
+          
+        </ol>
+      </div>
+      <div class="col-xs-4">
+        
+        <ol class="user">
+
+          <li class="nav-item nav-account-help">
+            <h3 class="title"><span class="label"><a href="${get_online_help_info(online_help_token)['doc_url']}" title="${_("Contextual Online Help")}" target="_blank">${_("Help")}</a></span></h3>
+          </li>
+
+          <li class="nav-item nav-account-user" style="display:block;">
+            <div class="image-wrapper" style="float: left; display:inline-block; margin-top: 16px;">
+                <img id="imageMain" class="image-frame" src="">           
+            </div>
+            <h3 class="title"  style="margin-right: -9px;"><span class="label" style="margin-right: 9px;"><span class="label-prefix sr">${_("Currently signed in as:")}</span><span class="account-username" title="${ user.username }">${ user.username }</span></span> <i class="icon fa fa-ellipsis-v ui-toggle-dd"></i></h3>
+
+            <div class="wrapper wrapper-nav-sub">
+              <div class="nav-sub">
+                <ul>
+                  <li class="nav-item nav-account-dashboard">
+                    <a href="/">${_("{studio_name} Home").format(studio_name=settings.STUDIO_SHORT_NAME)}</a>
+                  </li>
+                  <li class="nav-item nav-account-signout">
+                    <a class="action action-signout" href="${reverse('logout')}">${_("Sign Out")}</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+         
+        </ol>
+          
+          
+      </div>
+      % else:
+      <div class="col-xs-9 nav-global no-margin" >
+        
+        <h2 class="sr">${_("Account Navigation")}</h2>
+          <ol class="user">
+            
+            <li class="nav-item nav-not-signedin-signup">
+             <h3 class="title"><span class="label">
+              <a class="action action-signup" href="${reverse('signup')}">${_("Sign Up")}</a>
+              </span></h3>
+            </li>
+            <li class="nav-item nav-not-signedin-signin">
+             <h3 class="title"><span class="label">
+              <a class="action action-signin" href="${reverse('login')}">${_("Sign In")}</a>
+              </span></h3>
+            </li>
+          </ol>
+      </div>
+      % endif
+    </nav>
+
+  </header>
+
+</div>

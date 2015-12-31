@@ -1,0 +1,935 @@
+2015-12-27 07:30:43,520 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 07:30:43,520 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 07:30:43,521 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 07:30:43,521 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 07:30:43,521 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 07:30:43,521 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 12:38:51,451 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 12:38:51,451 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 12:38:51,452 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 12:38:51,452 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 12:38:51,452 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 12:38:51,452 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 12:39:00,032 WARNING 2393 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/f0e6d90842c44cc7a50fd1a18a7dd982, skipping
+2015-12-27 12:39:00,035 WARNING 2393 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/a79d59cd72034188a71d388f4954a606, skipping
+2015-12-27 12:39:00,037 WARNING 2393 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/d91b9e5d8bc64d57a1332d06bf2f2193, skipping
+2015-12-27 12:39:00,115 WARNING 2393 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/f0e6d90842c44cc7a50fd1a18a7dd982, skipping
+2015-12-27 12:39:00,134 WARNING 2393 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/a79d59cd72034188a71d388f4954a606, skipping
+2015-12-27 12:39:00,138 WARNING 2393 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/d91b9e5d8bc64d57a1332d06bf2f2193, skipping
+2015-12-27 12:39:01,417 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 12:39:01,417 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 12:39:01,418 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 12:39:01,418 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 12:39:01,418 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 12:39:01,418 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 12:39:06,280 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 12:39:06,281 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 12:39:06,281 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 12:39:06,281 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 12:39:06,281 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 12:39:06,281 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 12:39:06,834 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 12:39:06,843 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 12:39:06,843 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 12:39:06,844 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 12:39:06,844 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 12:39:06,844 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 12:39:08,062 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 12:39:08,062 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 12:39:08,062 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 12:39:08,062 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 12:39:08,062 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 12:39:08,063 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 16:53:26,144 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 16:53:26,145 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 16:53:26,145 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 16:53:26,145 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 16:53:26,145 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 16:53:26,145 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 16:53:43,171 INFO 2395 [audit] models.py:1580 - Login success - user (user@example.com)
+2015-12-27 17:00:53,559 INFO 1661 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[2a64b998-6a69-4b46-a700-a8475ae437f3]
+2015-12-27 17:00:53,576 INFO 2395 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7f5bf4b6c848> with kwargs {'course_key': CourseLocator(u'IIPS', u'DA1', u'2016_DA', None, None)}. Response was: None
+2015-12-27 17:00:53,577 INFO 2395 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7f5bf4b6c938> with kwargs {'course_key': CourseLocator(u'IIPS', u'DA1', u'2016_DA', None, None)}. Response was: None
+2015-12-27 17:00:53,577 INFO 2395 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function _listen_for_course_publish at 0x7f5bf4b8b500> with kwargs {'course_key': CourseLocator(u'IIPS', u'DA1', u'2016_DA', None, None)}. Response was: None
+2015-12-27 17:00:53,577 INFO 2395 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7f5bfd31e398> with kwargs {'course_key': CourseLocator(u'IIPS', u'DA1', u'2016_DA', None, None)}. Response was: None
+2015-12-27 17:00:53,594 WARNING 2277 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://IIPS/DA1/vertical/839df8dbe96143c4b3d86754c8a4da26, skipping
+2015-12-27 17:00:53,596 WARNING 2277 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://IIPS/DA1/vertical/a81e9eba72e44dd3b115e188d6132681, skipping
+2015-12-27 17:00:53,627 INFO 1661 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[2a64b998-6a69-4b46-a700-a8475ae437f3] succeeded in 0.0662494809949s: None
+2015-12-27 17:01:03,509 INFO 1661 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[574eb49f-3ba9-4a2b-81f5-77cbd5ac498b]
+2015-12-27 17:01:03,530 INFO 2395 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7f5bf4b6c848> with kwargs {'course_key': CourseLocator(u'IIPS', u'DA1', u'2016_DA', None, None)}. Response was: None
+2015-12-27 17:01:03,530 INFO 2395 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7f5bf4b6c938> with kwargs {'course_key': CourseLocator(u'IIPS', u'DA1', u'2016_DA', None, None)}. Response was: None
+2015-12-27 17:01:03,531 INFO 2395 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function _listen_for_course_publish at 0x7f5bf4b8b500> with kwargs {'course_key': CourseLocator(u'IIPS', u'DA1', u'2016_DA', None, None)}. Response was: None
+2015-12-27 17:01:03,531 INFO 2395 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7f5bfd31e398> with kwargs {'course_key': CourseLocator(u'IIPS', u'DA1', u'2016_DA', None, None)}. Response was: None
+2015-12-27 17:01:03,548 WARNING 2274 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://IIPS/DA1/vertical/839df8dbe96143c4b3d86754c8a4da26, skipping
+2015-12-27 17:01:03,559 WARNING 2274 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://IIPS/DA1/vertical/a81e9eba72e44dd3b115e188d6132681, skipping
+2015-12-27 17:01:03,590 INFO 1661 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[574eb49f-3ba9-4a2b-81f5-77cbd5ac498b] succeeded in 0.0780878009973s: None
+2015-12-27 17:06:27,935 WARNING 2396 [contentstore.views.preview] preview.py:77 - Module raised an error while processing AJAX request
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/edx/edx-platform/cms/djangoapps/contentstore/views/preview.py", line 65, in preview_handler
+    resp = instance.handle(handler, req, suffix)
+  File "/opt/bitnami/apps/edx/edx-platform/XBlock/xblock/mixins.py", line 86, in handle
+    return self.runtime.handle(self, handler_name, request, suffix)
+  File "/opt/bitnami/apps/edx/edx-platform/common/lib/xmodule/xmodule/x_module.py", line 1269, in handle
+    return super(MetricsMixin, self).handle(block, handler_name, request, suffix=suffix)
+  File "/opt/bitnami/apps/edx/edx-platform/XBlock/xblock/runtime.py", line 1025, in handle
+    results = handler(request, suffix)
+  File "/opt/bitnami/apps/edx/edx-platform/common/lib/xmodule/xmodule/x_module.py", line 830, in xmodule_handler
+    response_data = self.handle_ajax(suffix, request_post)
+  File "/opt/bitnami/apps/edx/edx-platform/common/lib/xmodule/xmodule/capa_module.py", line 91, in handle_ajax
+    result = handlers[dispatch](data)
+  File "/opt/bitnami/apps/edx/edx-platform/common/lib/xmodule/xmodule/capa_base.py", line 1123, in check_problem
+    float(published_grade['grade']) / published_grade['max_grade'],
+ProcessingError: We're sorry, there was an error with processing your request. Please try reloading your page and trying again.
+2015-12-27 17:06:37,366 WARNING 2396 [contentstore.views.preview] preview.py:77 - Module raised an error while processing AJAX request
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/edx/edx-platform/cms/djangoapps/contentstore/views/preview.py", line 65, in preview_handler
+    resp = instance.handle(handler, req, suffix)
+  File "/opt/bitnami/apps/edx/edx-platform/XBlock/xblock/mixins.py", line 86, in handle
+    return self.runtime.handle(self, handler_name, request, suffix)
+  File "/opt/bitnami/apps/edx/edx-platform/common/lib/xmodule/xmodule/x_module.py", line 1269, in handle
+    return super(MetricsMixin, self).handle(block, handler_name, request, suffix=suffix)
+  File "/opt/bitnami/apps/edx/edx-platform/XBlock/xblock/runtime.py", line 1025, in handle
+    results = handler(request, suffix)
+  File "/opt/bitnami/apps/edx/edx-platform/common/lib/xmodule/xmodule/x_module.py", line 830, in xmodule_handler
+    response_data = self.handle_ajax(suffix, request_post)
+  File "/opt/bitnami/apps/edx/edx-platform/common/lib/xmodule/xmodule/capa_module.py", line 91, in handle_ajax
+    result = handlers[dispatch](data)
+  File "/opt/bitnami/apps/edx/edx-platform/common/lib/xmodule/xmodule/capa_base.py", line 1123, in check_problem
+    float(published_grade['grade']) / published_grade['max_grade'],
+ProcessingError: We're sorry, there was an error with processing your request. Please try reloading your page and trying again.
+2015-12-27 17:17:55,380 INFO 1661 [celery.worker.strategy] strategy.py:55 - Received task: openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[af9eaf62-c5ba-4ede-b735-f4ba9a4dad84]
+2015-12-27 17:17:55,402 INFO 2395 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7f5bf4b6c848> with kwargs {'course_key': CourseLocator(u'IIPS', u'DA2', u'2015_DA2', None, None)}. Response was: None
+2015-12-27 17:17:55,402 INFO 2395 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7f5bf4b6c938> with kwargs {'course_key': CourseLocator(u'IIPS', u'DA2', u'2015_DA2', None, None)}. Response was: None
+2015-12-27 17:17:55,402 INFO 2395 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function _listen_for_course_publish at 0x7f5bf4b8b500> with kwargs {'course_key': CourseLocator(u'IIPS', u'DA2', u'2015_DA2', None, None)}. Response was: None
+2015-12-27 17:17:55,403 INFO 2395 [xmodule.modulestore.django] django.py:108 - Sent course_published signal to <function listen_for_course_publish at 0x7f5bfd31e398> with kwargs {'course_key': CourseLocator(u'IIPS', u'DA2', u'2015_DA2', None, None)}. Response was: None
+2015-12-27 17:17:55,411 WARNING 2284 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://IIPS/DA2/vertical/450c9573c2c54463999a9856ad3a9642, skipping
+2015-12-27 17:17:55,431 INFO 1661 [celery.worker.job] job.py:401 - Task openedx.core.djangoapps.content.course_structures.tasks.update_course_structure[af9eaf62-c5ba-4ede-b735-f4ba9a4dad84] succeeded in 0.0495303950156s: None
+2015-12-27 17:18:11,614 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 17:18:11,615 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 17:18:11,615 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 17:18:11,615 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:11,615 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 17:18:11,616 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:21,353 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 17:18:21,354 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 17:18:21,354 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 17:18:21,354 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:21,354 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 17:18:21,354 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:22,472 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 17:18:22,472 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 17:18:22,472 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 17:18:22,472 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:22,473 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 17:18:22,473 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:22,781 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 17:18:22,782 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 17:18:22,782 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 17:18:22,782 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:22,782 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 17:18:22,783 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:23,047 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 17:18:23,048 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 17:18:23,048 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 17:18:23,048 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:23,048 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 17:18:23,048 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:25,124 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 17:18:25,124 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 17:18:25,125 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 17:18:25,125 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:25,125 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 17:18:25,125 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:51,824 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 17:18:51,824 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 17:18:51,824 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 17:18:51,825 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:18:51,825 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 17:18:51,825 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:23:38,229 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 17:23:38,230 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 17:23:38,230 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 17:23:38,230 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:23:38,230 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 17:23:38,230 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:34:50,837 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 17:34:50,837 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 17:34:50,837 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 17:34:50,838 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 17:34:50,838 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 17:34:50,838 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 20:54:54,737 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-27 20:54:54,737 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-27 20:54:54,737 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-27 20:54:54,737 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-27 20:54:54,738 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-27 20:54:54,738 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 00:55:09,263 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 00:55:09,263 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 00:55:09,263 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 00:55:09,264 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 00:55:09,264 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 00:55:09,264 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 00:57:30,545 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 00:57:30,546 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 00:57:30,546 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 00:57:30,546 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 00:57:30,546 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 00:57:30,546 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 00:57:32,895 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 00:57:32,896 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 00:57:32,896 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 00:57:32,896 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 00:57:32,896 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 00:57:32,896 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 00:57:33,327 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 00:57:33,328 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 00:57:33,328 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 00:57:33,328 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 00:57:33,328 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 00:57:33,328 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 00:57:33,605 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 00:57:33,606 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 00:57:33,606 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 00:57:33,606 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 00:57:33,606 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 00:57:33,606 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 01:45:43,152 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 01:45:43,152 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 01:45:43,153 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 01:45:43,153 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 01:45:43,153 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 01:45:43,153 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 01:45:44,513 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 01:45:44,513 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 01:45:44,514 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 01:45:44,514 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 01:45:44,514 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 01:45:44,514 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 01:45:44,879 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 01:45:44,892 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 01:45:44,892 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 01:45:44,892 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 01:45:44,892 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 01:45:44,893 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 01:45:45,247 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 01:45:45,248 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 01:45:45,248 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 01:45:45,248 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 01:45:45,248 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 01:45:45,249 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 01:45:45,594 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 01:45:45,595 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 01:45:45,595 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 01:45:45,595 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 01:45:45,595 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 01:45:45,596 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:02:45,026 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 12:02:45,026 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 12:02:45,026 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 12:02:45,027 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:02:45,027 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 12:02:45,027 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:03:45,570 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 12:03:45,570 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 12:03:45,570 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 12:03:45,571 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:03:45,571 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 12:03:45,571 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:34:34,063 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/f0e6d90842c44cc7a50fd1a18a7dd982, skipping
+2015-12-28 12:34:34,066 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/a79d59cd72034188a71d388f4954a606, skipping
+2015-12-28 12:34:34,072 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/d91b9e5d8bc64d57a1332d06bf2f2193, skipping
+2015-12-28 12:34:34,146 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/f0e6d90842c44cc7a50fd1a18a7dd982, skipping
+2015-12-28 12:34:34,161 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/a79d59cd72034188a71d388f4954a606, skipping
+2015-12-28 12:34:34,169 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/d91b9e5d8bc64d57a1332d06bf2f2193, skipping
+2015-12-28 12:34:35,325 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 12:34:35,325 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 12:34:35,334 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 12:34:35,334 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:34:35,334 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 12:34:35,334 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:34:39,764 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 12:34:39,765 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 12:34:39,765 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 12:34:39,765 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:34:39,765 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 12:34:39,765 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:34:40,193 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 12:34:40,193 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 12:34:40,193 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 12:34:40,194 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:34:40,194 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 12:34:40,194 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:34:40,477 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 12:34:40,477 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 12:34:40,477 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 12:34:40,478 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:34:40,478 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 12:34:40,478 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:36:26,330 INFO 15162 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2015-12-28 12:36:31,992 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/f0e6d90842c44cc7a50fd1a18a7dd982, skipping
+2015-12-28 12:36:31,994 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/a79d59cd72034188a71d388f4954a606, skipping
+2015-12-28 12:36:32,009 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/d91b9e5d8bc64d57a1332d06bf2f2193, skipping
+2015-12-28 12:36:32,259 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/f0e6d90842c44cc7a50fd1a18a7dd982, skipping
+2015-12-28 12:36:32,281 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/a79d59cd72034188a71d388f4954a606, skipping
+2015-12-28 12:36:32,328 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/d91b9e5d8bc64d57a1332d06bf2f2193, skipping
+2015-12-28 12:36:34,677 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 12:36:34,678 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 12:36:34,678 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 12:36:34,678 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:36:34,678 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 12:36:34,679 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:36:39,910 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 12:36:39,910 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 12:36:39,910 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 12:36:39,911 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:36:39,911 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 12:36:39,911 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:36:40,329 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 12:36:40,343 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 12:36:40,343 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 12:36:40,343 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:36:40,343 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 12:36:40,344 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:36:40,680 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 12:36:40,681 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 12:36:40,681 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 12:36:40,681 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:36:40,681 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 12:36:40,681 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:36:45,271 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/f0e6d90842c44cc7a50fd1a18a7dd982, skipping
+2015-12-28 12:36:45,276 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/a79d59cd72034188a71d388f4954a606, skipping
+2015-12-28 12:36:45,292 WARNING 2394 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/d91b9e5d8bc64d57a1332d06bf2f2193, skipping
+2015-12-28 12:36:55,355 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 12:36:55,355 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 12:36:55,355 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 12:36:55,356 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:36:55,356 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 12:36:55,356 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 12:38:53,114 INFO 15299 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2015-12-28 15:57:30,849 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 15:57:30,849 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 15:57:30,857 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 15:57:30,858 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 15:57:30,858 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 15:57:30,858 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 20:05:10,853 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 20:05:10,853 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 20:05:10,854 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 20:05:10,854 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 20:05:10,854 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 20:05:10,854 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 22:18:53,860 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-28 22:18:53,860 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-28 22:18:53,860 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-28 22:18:53,860 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-28 22:18:53,861 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-28 22:18:53,861 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 02:11:28,090 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 02:11:28,090 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 02:11:28,090 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 02:11:28,090 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 02:11:28,091 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 02:11:28,091 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 05:31:41,438 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 05:31:41,440 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 05:31:41,440 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 05:31:41,441 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 05:31:41,441 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 05:31:41,441 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 11:15:53,606 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 11:15:53,606 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 11:15:53,607 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 11:15:53,607 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 11:15:53,607 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 11:15:53,607 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 13:54:47,789 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 13:54:47,790 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 13:54:47,790 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 13:54:47,790 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 13:54:47,790 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 13:54:47,790 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:31:16,290 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 19:31:16,291 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 19:31:16,291 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 19:31:16,291 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:31:16,291 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 19:31:16,291 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:32:00,265 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 19:32:00,266 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 19:32:00,266 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 19:32:00,266 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:32:00,266 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 19:32:00,267 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:33:05,637 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 19:33:05,637 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 19:33:05,645 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 19:33:05,646 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:33:05,646 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 19:33:05,646 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:33:07,098 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 19:33:07,098 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 19:33:07,098 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 19:33:07,098 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:33:07,099 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 19:33:07,099 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:33:07,463 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 19:33:07,463 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 19:33:07,463 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 19:33:07,464 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:33:07,464 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 19:33:07,464 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:33:07,669 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 19:33:07,669 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 19:33:07,670 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 19:33:07,670 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:33:07,670 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 19:33:07,670 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:33:17,600 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 19:33:17,601 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 19:33:17,601 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 19:33:17,601 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:33:17,601 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 19:33:17,601 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:33:44,074 ERROR 2393 [root] exceptions.py:9 - Uncaught exception from <class 'django.core.handlers.wsgi.WSGIHandler'>
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 109, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 77, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/views/decorators/http.py", line 41, in inner
+    return func(request, *args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/views.py", line 1907, in password_reset
+    domain_override=request.get_host())
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/forms.py", line 79, in save
+    send_mail(subject, email, from_email, [user.email])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/__init__.py", line 61, in send_mail
+    connection=connection).send()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/message.py", line 248, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 85, in send_messages
+    new_conn_created = self.open()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 50, in open
+    self.connection.ehlo()
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 413, in ehlo
+    self.putcmd(self.ehlo_msg, name or self.local_hostname)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 341, in putcmd
+    self.send(str)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 333, in send
+    raise SMTPServerDisconnected('please run connect() first')
+SMTPServerDisconnected: please run connect() first
+2015-12-29 19:33:44,076 ERROR 2393 [django.request] base.py:213 - Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 109, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 77, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/views/decorators/http.py", line 41, in inner
+    return func(request, *args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/views.py", line 1907, in password_reset
+    domain_override=request.get_host())
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/forms.py", line 79, in save
+    send_mail(subject, email, from_email, [user.email])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/__init__.py", line 61, in send_mail
+    connection=connection).send()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/message.py", line 248, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 85, in send_messages
+    new_conn_created = self.open()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 50, in open
+    self.connection.ehlo()
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 413, in ehlo
+    self.putcmd(self.ehlo_msg, name or self.local_hostname)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 341, in putcmd
+    self.send(str)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 333, in send
+    raise SMTPServerDisconnected('please run connect() first')
+SMTPServerDisconnected: please run connect() first
+2015-12-29 19:33:44,099 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 19:33:44,099 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 19:33:44,099 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 19:33:44,099 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:33:44,099 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 19:33:44,100 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:48:59,724 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 19:48:59,724 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 19:48:59,725 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 19:48:59,725 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:48:59,725 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 19:48:59,725 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:49:08,354 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 19:49:08,354 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 19:49:08,355 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 19:49:08,355 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:49:08,355 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 19:49:08,355 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:49:37,695 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 19:49:37,695 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 19:49:37,695 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 19:49:37,696 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 19:49:37,696 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 19:49:37,696 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 20:57:41,231 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-29 20:57:41,231 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-29 20:57:41,231 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-29 20:57:41,231 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-29 20:57:41,232 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-29 20:57:41,232 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 04:55:24,850 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 04:55:24,851 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 04:55:24,851 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 04:55:24,851 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 04:55:24,851 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 04:55:24,851 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 08:31:44,086 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 08:31:44,087 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 08:31:44,095 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 08:31:44,095 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 08:31:44,095 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 08:31:44,096 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 09:14:52,107 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 09:14:52,108 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 09:14:52,108 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 09:14:52,108 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 09:14:52,108 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 09:14:52,109 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 10:37:33,034 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 10:37:33,034 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 10:37:33,035 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 10:37:33,035 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 10:37:33,035 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 10:37:33,035 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 12:20:51,922 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 12:20:51,922 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 12:20:51,922 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 12:20:51,922 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 12:20:51,923 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 12:20:51,931 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:24:16,038 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:24:16,038 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:24:16,038 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:24:16,038 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:24:16,039 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:24:16,039 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:05,660 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:05,660 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:05,660 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:05,661 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:05,661 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:05,661 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:12,545 INFO 2394 [audit] models.py:1587 - Logout - user.id: 1
+2015-12-30 22:57:13,071 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:13,071 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:13,071 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:13,071 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:13,072 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:13,072 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:15,191 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:15,192 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:15,192 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:15,192 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:15,192 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:15,193 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:15,732 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:15,732 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:15,733 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:15,733 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:15,733 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:15,733 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:15,762 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:15,763 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:15,763 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:15,763 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:15,763 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:15,763 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:16,191 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:16,192 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:16,192 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:16,192 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:16,192 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:16,192 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:16,278 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:16,278 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:16,278 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:16,279 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:16,279 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:16,279 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:38,377 ERROR 2393 [root] exceptions.py:9 - Uncaught exception from <class 'django.core.handlers.wsgi.WSGIHandler'>
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 109, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 77, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/views/decorators/http.py", line 41, in inner
+    return func(request, *args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/views.py", line 1907, in password_reset
+    domain_override=request.get_host())
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/forms.py", line 79, in save
+    send_mail(subject, email, from_email, [user.email])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/__init__.py", line 61, in send_mail
+    connection=connection).send()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/message.py", line 248, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 85, in send_messages
+    new_conn_created = self.open()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 50, in open
+    self.connection.ehlo()
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 413, in ehlo
+    self.putcmd(self.ehlo_msg, name or self.local_hostname)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 341, in putcmd
+    self.send(str)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 333, in send
+    raise SMTPServerDisconnected('please run connect() first')
+SMTPServerDisconnected: please run connect() first
+2015-12-30 22:57:38,378 ERROR 2393 [django.request] base.py:213 - Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 109, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 77, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/views/decorators/http.py", line 41, in inner
+    return func(request, *args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/views.py", line 1907, in password_reset
+    domain_override=request.get_host())
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/forms.py", line 79, in save
+    send_mail(subject, email, from_email, [user.email])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/__init__.py", line 61, in send_mail
+    connection=connection).send()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/message.py", line 248, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 85, in send_messages
+    new_conn_created = self.open()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 50, in open
+    self.connection.ehlo()
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 413, in ehlo
+    self.putcmd(self.ehlo_msg, name or self.local_hostname)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 341, in putcmd
+    self.send(str)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 333, in send
+    raise SMTPServerDisconnected('please run connect() first')
+SMTPServerDisconnected: please run connect() first
+2015-12-30 22:57:38,406 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:38,407 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:38,407 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:38,407 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:38,407 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:38,407 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:39,829 ERROR 2394 [root] exceptions.py:9 - Uncaught exception from <class 'django.core.handlers.wsgi.WSGIHandler'>
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 109, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 77, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/views/decorators/http.py", line 41, in inner
+    return func(request, *args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/views.py", line 1907, in password_reset
+    domain_override=request.get_host())
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/forms.py", line 79, in save
+    send_mail(subject, email, from_email, [user.email])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/__init__.py", line 61, in send_mail
+    connection=connection).send()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/message.py", line 248, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 85, in send_messages
+    new_conn_created = self.open()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 50, in open
+    self.connection.ehlo()
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 413, in ehlo
+    self.putcmd(self.ehlo_msg, name or self.local_hostname)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 341, in putcmd
+    self.send(str)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 333, in send
+    raise SMTPServerDisconnected('please run connect() first')
+SMTPServerDisconnected: please run connect() first
+2015-12-30 22:57:39,838 ERROR 2394 [django.request] base.py:213 - Internal Server Error: /password_reset/
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/handlers/base.py", line 109, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 77, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/views/decorators/http.py", line 41, in inner
+    return func(request, *args, **kwargs)
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/views.py", line 1907, in password_reset
+    domain_override=request.get_host())
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/forms.py", line 79, in save
+    send_mail(subject, email, from_email, [user.email])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/__init__.py", line 61, in send_mail
+    connection=connection).send()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/message.py", line 248, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 85, in send_messages
+    new_conn_created = self.open()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 50, in open
+    self.connection.ehlo()
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 413, in ehlo
+    self.putcmd(self.ehlo_msg, name or self.local_hostname)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 341, in putcmd
+    self.send(str)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 333, in send
+    raise SMTPServerDisconnected('please run connect() first')
+SMTPServerDisconnected: please run connect() first
+2015-12-30 22:57:39,860 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:39,860 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:39,860 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:39,860 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:39,861 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:39,861 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:55,883 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:55,883 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:55,884 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:55,884 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:55,884 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:55,884 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:57,987 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:57,987 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:57,988 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:57,988 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:57,988 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:57,988 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:58,148 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:58,149 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:58,149 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:58,149 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:58,149 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:58,149 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:58,297 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:58,297 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:58,298 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:58,298 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:58,298 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:58,322 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:58,605 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:58,605 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:58,605 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:58,606 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:58,606 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:58,606 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:58,650 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:57:58,650 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:57:58,651 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:57:58,651 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:57:58,651 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:57:58,651 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:13,725 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:58:13,725 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:58:13,725 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:58:13,725 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:13,726 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:58:13,726 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:15,062 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:58:15,063 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:58:15,063 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:58:15,063 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:15,063 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:58:15,064 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:15,141 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:58:15,142 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:58:15,142 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:58:15,142 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:15,142 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:58:15,143 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:15,327 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:58:15,327 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:58:15,328 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:58:15,328 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:15,328 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:58:15,328 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:15,598 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:58:15,599 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:58:15,599 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:58:15,599 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:15,599 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:58:15,599 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:15,633 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:58:15,634 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:58:15,634 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:58:15,634 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:15,634 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:58:15,634 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:16,804 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:58:16,804 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:58:16,805 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:58:16,805 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:16,805 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:58:16,805 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:19,270 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:58:19,271 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:58:19,271 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:58:19,271 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:19,271 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:58:19,271 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:19,558 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:58:19,559 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:58:19,559 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:58:19,559 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:19,559 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:58:19,560 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:37,636 INFO 2394 [requests.packages.urllib3.connectionpool] connectionpool.py:180 - Starting new HTTP connection (1): localhost
+2015-12-30 22:58:45,638 INFO 2394 [lms.lib.comment_client.utils] utils.py:48 - comment_client_request_log: request_id=004c801a-20ad-4327-a1bb-bae0945d6340, method=put, url=http://localhost:18080/api/v1/users/4, duration=8.00526809692
+2015-12-30 22:58:45,651 ERROR 2394 [edx.student] views.py:1657 - Unable to send activation email to user from ""
+Traceback (most recent call last):
+  File "/opt/bitnami/apps/edx/edx-platform/common/djangoapps/student/views.py", line 1655, in create_account_with_params
+    user.email_user(subject, message, from_address)
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/contrib/auth/models.py", line 374, in email_user
+    send_mail(subject, message, from_email, [self.email])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/__init__.py", line 61, in send_mail
+    connection=connection).send()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/message.py", line 248, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 85, in send_messages
+    new_conn_created = self.open()
+  File "/opt/bitnami/apps/edx/edx-platform/venv/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 50, in open
+    self.connection.ehlo()
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 413, in ehlo
+    self.putcmd(self.ehlo_msg, name or self.local_hostname)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 341, in putcmd
+    self.send(str)
+  File "/opt/bitnami/python/lib/python2.7/smtplib.py", line 333, in send
+    raise SMTPServerDisconnected('please run connect() first')
+SMTPServerDisconnected: please run connect() first
+2015-12-30 22:58:45,793 INFO 2394 [audit] models.py:1578 - Login success - user.id: 4
+2015-12-30 22:58:45,808 INFO 2394 [audit] views.py:1671 - Login success on new account creation - Gbalsa
+2015-12-30 22:58:46,136 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 22:58:46,136 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 22:58:46,136 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 22:58:46,136 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 22:58:46,136 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 22:58:46,137 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:43,157 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:03:43,157 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:03:43,158 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:03:43,158 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:43,158 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:03:43,158 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:47,508 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:03:47,508 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:03:47,508 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:03:47,508 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:47,509 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:03:47,509 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:49,600 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:03:49,601 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:03:49,601 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:03:49,601 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:49,601 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:03:49,601 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:49,939 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:03:49,940 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:03:49,940 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:03:49,940 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:49,940 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:03:49,940 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:50,309 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:03:50,309 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:03:50,309 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:03:50,310 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:50,310 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:03:50,310 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:51,646 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:03:51,647 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:03:51,647 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:03:51,655 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:51,655 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:03:51,656 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:57,402 WARNING 2393 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/f0e6d90842c44cc7a50fd1a18a7dd982, skipping
+2015-12-30 23:03:57,422 WARNING 2393 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/a79d59cd72034188a71d388f4954a606, skipping
+2015-12-30 23:03:57,426 WARNING 2393 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/d91b9e5d8bc64d57a1332d06bf2f2193, skipping
+2015-12-30 23:03:57,451 WARNING 2393 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/4e592689563243c484af947465eaef0d, skipping
+2015-12-30 23:03:57,477 WARNING 2393 [xmodule.x_module] x_module.py:449 - Unable to load item i4x://edX/DemoX/vertical/7efc7bf4a47b4a6cb6595c32cde7712a, skipping
+2015-12-30 23:03:58,341 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:03:58,341 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:03:58,341 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:03:58,342 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:03:58,342 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:03:58,342 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:01,911 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:04:01,911 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:04:01,911 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:04:01,912 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:01,912 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:04:01,912 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:02,262 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:04:02,263 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:04:02,263 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:04:02,263 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:02,263 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:04:02,263 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:03,054 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:04:03,054 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:04:03,054 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:04:03,054 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:03,055 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:04:03,055 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:13,930 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:04:13,930 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:04:13,931 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:04:13,931 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:13,931 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:04:13,931 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:16,705 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:04:16,706 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:04:16,706 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:04:16,706 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:16,706 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:04:16,706 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:17,107 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:04:17,107 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:04:17,107 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:04:17,107 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:17,107 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:04:17,108 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:17,496 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:04:17,505 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:04:17,505 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:04:17,505 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:04:17,506 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:04:17,506 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:29:01,311 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:29:01,311 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:29:01,311 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:29:01,311 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:29:01,312 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:29:01,312 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:29:06,791 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:29:06,792 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:29:06,792 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:29:06,792 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:29:06,792 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:29:06,792 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:39:35,369 INFO 2393 [audit] models.py:1587 - Logout - user.id: 4
+2015-12-30 23:39:35,892 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:39:35,892 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:39:35,892 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:39:35,893 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:39:35,893 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:39:35,893 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:39:38,360 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:39:38,360 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:39:38,368 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:39:38,368 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:39:38,369 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:39:38,369 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:39:38,830 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:39:38,830 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:39:38,838 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:39:38,838 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:39:38,839 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:39:38,839 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:39:38,999 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:39:38,999 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:39:38,999 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:39:38,999 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:39:39,000 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:39:39,000 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:39:39,343 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:39:39,343 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:39:39,344 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:39:39,344 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:39:39,344 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:39:39,344 WARNING 2393 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:39:39,512 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: NEWS
+2015-12-30 23:39:39,512 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: JOBS
+2015-12-30 23:39:39,512 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: SITE_MAP
+2015-12-30 23:39:39,512 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR
+2015-12-30 23:39:39,513 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: ACCESSIBILITY
+2015-12-30 23:39:39,513 WARNING 2394 [edxmako.shortcuts] shortcuts.py:56 - Cannot find corresponding link for name: TOS_AND_HONOR

@@ -1,0 +1,52 @@
+<%!
+    from django.core.urlresolvers import reverse
+    from util.date_utils import get_time_display
+    from django.utils.translation import ugettext as _
+    from django.conf import settings
+%>
+
+<%def name="make_chapter(chapter, idx)">
+  <li name="chapter_${idx}">
+    <%
+          if chapter.get('active'):
+              aria_label = _('{chapter}, current chapter').format(chapter=chapter['display_name'])
+              scroll_class = 'in'
+              active_class = ' class="active"'
+              collapse_class = ''
+          else:
+              aria_label = chapter['display_name']
+              active_class = ''
+              scroll_class = ''
+              collapse_class = 'collapsed'
+      %>
+    <div class="chapter-title" aria-label="${aria_label}">
+        <div class="chapter-items ${collapse_class}" data-toggle="collapse" href="#chapter${idx}" aria-expanded="true" aria-controls="chapter${idx}">
+          ${chapter['display_name']}
+          <img class="pull-right open" src="/static/themes/edx-theme/images/collapse-icon.png" width="20" height="20">
+          <img class="pull-right collapse" src="/static/themes/edx-theme/images/open-icon.png" width="20" height="20">
+        </div>
+      </div>    
+      <ul id="chapter${idx}" class="lessons-wrapper collapse ${scroll_class} mCustomScrollbar ${'tall' if (len(chapter['sections'])<2) else ''} ${'grande' if (2<=len(chapter['sections'])<=3) else ''} ${'venti' if (3<len(chapter['sections'])) else ''}" data-mcs-theme="gray-theme" data-units="${len(chapter['sections'])}">
+          % for section in chapter['sections']:
+              <li class="lesson ${'graded'  if 'graded' in section and section['graded'] else ''}">
+                <div class="${'current-circle' if 'active' in section and section['active'] else 'empty-circle'}" id="${'current-circle' if 'active' in section and section['active'] else ''}">
+                  <div class="current-circle-inner"></div>
+                </div>
+                <a href="${reverse('courseware_section', args=[course_id, chapter['url_name'], section['url_name']])}"> 
+                  ${section['display_name']}
+                </a>
+              </li>
+          % endfor        
+      </ul>
+  </li>
+
+  
+</%def>
+
+% for chapter in toc:
+  
+% endfor
+
+% for idx, chapter in enumerate(toc):
+    ${make_chapter(chapter, idx)}
+%endfor
